@@ -1,0 +1,37 @@
+.font-1-xs,
+.font-1-xs-m{
+    font: 400 1.125rem / 1.2 'Roboto Slab', serif;
+}
+
+.font-1-xs-m{
+    font-weight: 500;
+}
+
+.font-1-s{
+    font: 500 1.15rem / 1.2 'Roboto Slab', serif;
+}
+
+.font-1-m-m{
+    font: 500 1.5rem / 1.2 'Roboto Slab', serif;
+}
+
+.font-1-ml{
+    font: 500 1.8rem / 1.2 'Roboto Slab', serif;
+}
+
+.font-1-l,
+.font-1-l-b{
+    font: 400 2.25rem / 1.2 'Roboto Slab', serif;
+}
+
+.font-1-l-b{
+    font-weight: 500;
+}
+
+.font-1-xl-b{
+    font: 700 3rem / 1.2 'Roboto Slab', serif;
+}
+
+.font-1-xxl-b{
+    font: 800 4.75rem / 1.2 'Roboto Slab', serif;
+}

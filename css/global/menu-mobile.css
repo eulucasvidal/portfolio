@@ -1,0 +1,62 @@
+/*Configurações do meu Botão Menu Mobile */
+
+.js [data-menu="button"] {
+  display: none;
+}
+@media (max-width: 800px) {
+  /*Configurações do meu Botaão Menu Mobile */
+  .js [data-menu="button"] {
+    display: flex;
+    max-width: max-content;
+    font: 500 1.15rem / 1.2 "Roboto Slab", serif;
+    background: var(--cor-p1);
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: var(--cor-4);
+    margin: 10px;
+    align-items: center;
+    position: relative;
+    z-index: 300;
+    cursor: pointer;
+  }
+  .js [data-menu="button"]::before {
+    margin-right: 4px;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 12px;
+    background: var(--cor-4);
+    box-shadow: 0 4px var(--cor-4), 0 -4px var(--cor-4);
+    transition: transform 0.3s;
+  }
+  .js [data-menu="button"].active::before {
+    transform: rotate(90deg);
+  }
+
+  /*Fim configurações do meu Botão Menu Mobile */
+  /*Configurações do meu Menu Mobile */
+
+  .js [data-menu="list"] {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    right: 0px;
+    height: 0px;
+    background: linear-gradient(var(--cor-3), var(--cor-4));
+    z-index: 1000;
+    visibility: hidden;
+    overflow-y: hidden;
+    transition: 0.6s;
+    text-align: center;
+  }
+  .js [data-menu="list"].active {
+    display: block;
+    animation: show-right .3s forwards;
+  }
+}
+/*Fim configurações do meu Menu Mobile */
+
+/* Configurações de design do botao mobile */

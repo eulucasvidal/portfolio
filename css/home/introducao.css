@@ -1,0 +1,32 @@
+.introducao-bg{
+    background: var(--cor-3);
+}
+
+.introducao{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+@media(max-width:800px){
+    .introducao{
+        grid-template-columns: 1fr 1fr;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .introducao h1{
+        font-size: 3.5rem;
+    }
+    .introducao h2{
+        font-size: 2.5rem;
+    }
+}
+
+@media(max-width:600px){
+    .introducao{
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}

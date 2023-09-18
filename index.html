@@ -9,6 +9,9 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <script>
+      document.documentElement.className += " js";
+    </script>
     <link rel="preload" href="./css/style.css" as="style" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Portfolio | Lucas Gonçalves</title>
@@ -24,9 +27,11 @@
             height="17"
           />
         </div>
-        <nav id="menu" class="js-menu">
-          <button class="menuMobile">Menu</button>
-          <ul class="header-menu font-1-s cor-0">
+        <nav class="menu" data-menu="suave">
+          <button data-menu="button" aria-expanded="false" aria-controls="menu">
+            Menu
+          </button>
+          <ul data-menu="list" class="menu font-1-s cor-0">
             <li><a href="#home">Home</a></li>
             <li><a href="#experiencia">Experiência</a></li>
             <li><a href="#projetos">Projetos</a></li>
@@ -37,5 +42,68 @@
         </nav>
       </div>
     </header>
+    <main id="home" class="introducao-bg">
+      <article class="introducao cor-0 container">
+        <div>
+          <p class="font-1-m-m">Olá, Eu sou</p>
+          <h1 class="font-1-xxl-b">Lucas Gonçalves</h1>
+          <h2 class="font-1-l">Desenvolvedor Front End</h2>
+          <div>
+            <ul class="redes-sociais">
+              <li>
+                <a href="mailto:luccas.lima12@gmail.com" target="_blank"
+                  ><img
+                    src="./img/redes/email-mostarda.svg"
+                    alt="Email contact"
+                    width="24"
+                    height="24"
+                /></a>
+              </li>
+              <li>
+                <a href="https://github.com/eulucasvidal" target="_blank"
+                  ><img
+                    src="./img/redes/github-mostarda.svg"
+                    alt="GitHub contact"
+                    width="24"
+                    height="24"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/eu.lucasgoncalves/"
+                  target="_blank"
+                  ><img
+                    src="./img/redes/instagram-mostarda.svg"
+                    alt="instagram contact"
+                    width="24"
+                    height="24"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/goncalves-lucas/"
+                  target="_blank"
+                  ><img
+                    src="./img/redes/linkedin-mostarda.svg"
+                    alt="Linkedin contact"
+                    width="24"
+                    height="24"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <a class="botao-1 cor-0 seta">Contate Me</a>
+        </div>
+        <div>
+          <img
+            src="./img/cartoon/cartoon-intro.png"
+            alt="Imagem cartoon de introduçao"
+            width="500"
+            height="418"
+          />
+        </div>
+      </article>
+    </main>
+    <script type="module" src="js/script.js"></script>
   </body>
 </html>

@@ -1,8 +1,13 @@
 /* GLOBAL */
 @import './global/global.css';
 @import './global/header.css';
+@import './global/menu-mobile.css';
 
 
 /* UTILIDADES */
 @import './utilidades/tipografia.css';
 @import './utilidades/cores.css';
+@import './utilidades/componentes.css';
+
+/* HOME */
+@import './home/introducao.css';

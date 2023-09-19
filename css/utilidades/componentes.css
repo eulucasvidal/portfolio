@@ -6,3 +6,64 @@
     margin-left: auto;
     margin-right: auto;
 }
+.botao{
+    display: flex;
+    align-items: center;
+	font: 500 1.15rem / 1.2 'Roboto Slab', serif;
+	padding: 16px 32px;
+	max-width: max-content;
+   	border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-1{
+    background: var(--cor-3);
+    color: var(--cor-0);
+    border: 1.5px solid var(--cor-p1);
+}
+.btn-1:hover{
+    background: linear-gradient(var(--cor-3),var(--cor-4));
+    transition: 0.6s;
+}
+.seta::after{
+    content: '';
+    display: inline-block;
+    width: 23px;
+    height: 11px;
+    margin-left: 12px;
+    background: url(../../img/icones/seta-branco.svg), no-repeat;
+}
+.seta:hover::after{
+    transition: 0.7s;
+    transform: translateX(4px);
+}
+.btn-2{
+    background: var(--cor-p1);
+    color: var(--cor-4);
+}
+.btn-2:hover{
+    background: linear-gradient(var(--cor-p2),var(--cor-p3));
+    transition: 0.6s;
+}
+.download::after{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 35px;
+    margin-left: 12px;
+    background: url(../../img/icones/icone-download.svg),no-repeat;
+}
+.download:hover::after{
+    transition: 0.7s;
+    transform: translateY(4px);
+}
+.download:hover::after{
+    transition: 0.7s;
+    transform: translateY(4px);
+}
+.redes-sociais{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 0px;
+}

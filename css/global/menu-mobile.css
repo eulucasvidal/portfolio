@@ -1,4 +1,4 @@
-[data-menu="button"] {
+.js [data-menu="button"] {
   display: none;
 }
 @media (max-width: 800px) {
@@ -6,9 +6,10 @@
     display: flex;
     align-items: center;
     max-width: max-content;
-    font: 500 1.15rem / 1.2 "Roboto Slab", serif;
+    font: 500 1rem / 1.2 "Roboto Slab", serif;
     background: var(--cor-p1);
     border: none;
+    border-radius: 5px;
     padding: 4px 8px;
     text-transform: uppercase;
     color: var(--cor-4);

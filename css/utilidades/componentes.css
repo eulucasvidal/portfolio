@@ -1,3 +1,4 @@
+/* Configurações de container geral */
 .container{
     box-sizing: border-box;
     max-width: 1200px;
@@ -6,6 +7,7 @@
     margin-left: auto;
     margin-right: auto;
 }
+/* Configurações de Botões geral */
 .botao{
     display: flex;
     align-items: center;
@@ -17,25 +19,14 @@
     text-decoration: none;
 }
 .btn-1{
-    background: var(--cor-3);
-    color: var(--cor-0);
-    border: 1.5px solid var(--cor-p1);
+    background: var(--background-2);
+    color: var(--color-1);
+    border: 1.5px solid var(--color-p1);
 }
 .btn-1:hover{
     background: linear-gradient(var(--cor-3),var(--cor-4));
+    color: var(--color-p1);
     transition: 0.6s;
-}
-.seta::after{
-    content: '';
-    display: inline-block;
-    width: 23px;
-    height: 11px;
-    margin-left: 12px;
-    background: url(../../img/icones/seta-branco.svg), no-repeat;
-}
-.seta:hover::after{
-    transition: 0.7s;
-    transform: translateX(4px);
 }
 .btn-2{
     background: var(--cor-p1);
@@ -44,6 +35,28 @@
 .btn-2:hover{
     background: linear-gradient(var(--cor-p2),var(--cor-p3));
     transition: 0.6s;
+}
+/* Configurações de Setas do botao */
+.seta::after{
+    content: '';
+    display: inline-block;
+    width: 23px;
+    height: 11px;
+    margin-left: 12px;
+    background: url(../../img/icones/seta-preto.svg), no-repeat;
+}
+.seta:hover::after{
+    transition: 0.7s;
+    transform: translateX(4px);
+}
+.seta:hover::after{
+    background: url(../../img/icones/seta-amarelo.svg), no-repeat;
+}
+body.dark .seta::after{
+    background: url(../../img/icones/seta-branco.svg), no-repeat;
+}
+body.dark .seta:hover::after{
+    background: url(../../img/icones/seta-mostarda.svg), no-repeat;
 }
 .download::after{
     content: '';
@@ -61,9 +74,49 @@
     transition: 0.7s;
     transform: translateY(4px);
 }
+/* Configurações de Redes sociais */
 .redes-sociais{
     display: flex;
     align-items: center;
     gap: 40px;
     padding: 40px 0px;
+}
+/* Configurações de Botão Dark Mode */
+.checkbox{
+    opacity: 0;
+    position: absolute;
+}
+.label{
+    background: #191919;
+    border-radius: 50px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    height: 24px;
+    width: 48px;
+}
+.label .ball{
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 20px;
+    width: 20px;
+
+    transform: translateX(0px);
+    transition: transform 0.2s linear;
+}
+.checkbox:checked + .label .ball{
+    transform: translateX(24px);
+}
+.fa-moon{
+    color: #F5BC00;
+}
+.fa-sun{
+    color: #F5CE85;
 }

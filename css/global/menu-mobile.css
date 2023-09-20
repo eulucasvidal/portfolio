@@ -1,18 +1,18 @@
 .js [data-menu="button"] {
   display: none;
 }
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   .js [data-menu="button"] {
     display: flex;
     align-items: center;
     max-width: max-content;
     font: 500 1rem / 1.2 "Roboto Slab", serif;
-    background: var(--cor-p1);
+    background: var(--color-p1);
     border: none;
     border-radius: 5px;
     padding: 4px 8px;
     text-transform: uppercase;
-    color: var(--cor-4);
+    color: var(--background-1);
     margin: 10px;
     position: relative;
     z-index: 300;
@@ -24,8 +24,8 @@
     display: inline-block;
     height: 2px;
     width: 12px;
-    background: var(--cor-4);
-    box-shadow: 0 4px var(--cor-4), 0 -4px var(--cor-4);
+    background: var(--background-1);
+    box-shadow: 0 4px var(--background-1), 0 -4px var(--background-1);
     transition: transform 0.3s;
   }
   .js [data-menu="button"].active::before {
@@ -38,7 +38,7 @@
     top: 100px;
     right: 0px;
     height: 0px;
-    background: linear-gradient(var(--cor-3), var(--cor-4));
+    background: var(--background-1);
     z-index: 1000;
     visibility: hidden;
     overflow-y: hidden;

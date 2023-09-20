@@ -1,5 +1,5 @@
 .header-bg{
-    background: var(--cor-4);
+    background: var(--background-1);
 }
 .header{
     display: flex;
@@ -17,7 +17,12 @@
     border-bottom: 1px solid transparent;
 }
 [data-menu="list"] a:hover{
-    color: var(--cor-p1);
+    color: var(--color-p1);
     transition: 0.7s;
-    border-color: var(--cor-p1);
+    border-color: var(--color-p1);
+}
+[data-menu="suave"]{
+    display: flex;
+    align-items: center;
+    gap: 25px;
 }

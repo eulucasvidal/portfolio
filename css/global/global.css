@@ -23,3 +23,6 @@ img{
     display: block;
     height: auto;
 }
+body{
+    transition: background 0.2s linear;
+}

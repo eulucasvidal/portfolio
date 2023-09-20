@@ -120,3 +120,23 @@ body.dark .seta:hover::after{
 .fa-sun{
     color: #F5CE85;
 }
+/* Configurações de Titulos com detalhe sublinhado */
+
+.titulo{
+    font: 700 3rem / 1.2 'Roboto Slab', serif;
+    color: var(--color-1);
+    position: relative;
+}
+.detalhe::after{
+    content: '';
+    width: 80px;
+    height: 2px;
+    background: var(--color-p1);
+    position: absolute;
+    box-sizing: border-box;
+    top: 60px;
+    left: 0px;
+}
+span{
+    color: var(--color-p1);
+}

@@ -1,0 +1,15 @@
+.experiencia-bg{
+    background: var(--background-1);
+}
+
+.experiencia{
+    display: grid;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    gap: 50px;
+}
+
+.experiencia div p{
+    padding-top: 20px;
+    max-width: 100ch;
+}

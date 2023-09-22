@@ -19,7 +19,8 @@
   gap: 40px;
 }
 
-@media (max-width: 800px) {
+
+@media (max-width: 900px) {
   .projetos-conteudo {
     grid-template-columns: 1fr;
   }

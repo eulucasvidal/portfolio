@@ -36,6 +36,13 @@
     background: linear-gradient(var(--cor-p2),var(--cor-p3));
     transition: 0.6s;
 }
+.botao-card{
+    background: #1ABCFE;
+    color:#191919;
+}
+.botao-card:hover{
+    background: #01609F;
+}
 /* Configurações de Setas do botao */
 .seta::after{
     content: '';

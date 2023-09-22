@@ -1,0 +1,26 @@
+.projetos-bg {
+  background: var(--background-2);
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.projetos-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+@media (max-width: 800px) {
+  .projetos-conteudo {
+    grid-template-columns: 1fr;
+  }
+}

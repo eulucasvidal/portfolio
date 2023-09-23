@@ -1,0 +1,36 @@
+.sobre-bg{
+    background: var(--background-1);
+}
+
+.sobre{
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.sobre-conteudo{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+
+.sobre-conteudo-texto{
+    display: grid;
+    justify-items: center;
+    gap: 20px;
+    text-align: center;
+}
+.sobre-conteudo-texto p{
+    padding-top: 20px;
+}
+
+@media(max-width:800px){
+    .sobre-conteudo{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .sobre-conteudo div img{
+        height: 400px;
+    }
+}

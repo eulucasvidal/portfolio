@@ -30,7 +30,7 @@
 }
 .btn-2{
     background: var(--color-p1);
-    color: var(--color-1);
+    color: #0E0E0E;
 }
 .btn-2:hover{
     background: linear-gradient(var(--color-p2),var(--color-p3));

@@ -5,6 +5,8 @@
     --color-1:#0E0E0E;
     --color-2:#F5F5F5;
     --color-p1:#FBBF24;
+    --color-p2:#FACC15;
+    --color-p3:#EAB308;
 
 }
 .background-1{
@@ -22,6 +24,12 @@
 .color-p1{
     color: var(--color-p1);
 }
+.color-p2{
+    color: var(--color-p2);
+}
+.color-p3{
+    color: var(--color-p3);
+}
 
 body.dark{
     --background-1:#0E0E0E;
@@ -29,4 +37,6 @@ body.dark{
 
     --color-1:#FFFFFF;
     --color-p1:#F4FA1A;
+    --color-p2:#E2E823;
+    --color-p3:#B7BC00;
 }

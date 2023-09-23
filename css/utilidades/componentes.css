@@ -29,8 +29,8 @@
     transition: 0.6s;
 }
 .btn-2{
-    background: var(--cor-p1);
-    color: var(--cor-4);
+    background: var(--color-p1);
+    color: var(--color-1);
 }
 .btn-2:hover{
     background: linear-gradient(var(--cor-p2),var(--cor-p3));

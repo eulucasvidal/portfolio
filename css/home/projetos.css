@@ -1,7 +1,6 @@
 .projetos-bg {
   background: var(--background-2);
 }
-
 .projetos {
   display: flex;
   flex-direction: column;
@@ -10,7 +9,6 @@
   padding-top: 60px;
   padding-bottom: 120px;
 }
-
 .projetos-conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -23,7 +21,6 @@
   overflow: hidden;
   border-radius: 10px;
 }
-
 .card-body {
   display: flex;
   flex-direction: column;
@@ -76,7 +73,6 @@
   border: 0.5px solid transparent;
   transition: 0.8s;
 }
-
 .card-tecnologias ul {
   display: flex;
   justify-content: center;

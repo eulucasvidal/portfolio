@@ -4,7 +4,6 @@
     border: 1.5px solid var(--color-p1);
 }
 .btn-1:hover{
-    background: linear-gradient(var(--cor-3),var(--cor-4));
     color: var(--color-p1);
     transition: 0.6s;
 }

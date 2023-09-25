@@ -3,15 +3,19 @@
 @import './global/header.css';
 @import './global/menu-mobile.css';
 
-/*ASSETS*/
-/*BOTOES*/
+
+/*ASSETS BOTOES*/
 @import './assets/botoes/botao-config-global.css';
 @import './assets/botoes/botao-primario.css';
-/* UTILIDADES */
-@import './utilidades/tipografia.css';
-@import './utilidades/cores.css';
-@import './utilidades/componentes.css';
-@import './utilidades/botao-topo.css';
+@import './assets/botoes/botao-secundario.css';
+@import './assets/botoes/botao-dark-mode.css';
+@import './assets/botoes/botao-scroll-top.css';
+
+/*ASSETS UTILIDADES */
+@import './assets/utilidades/tipografia.css';
+@import './assets/utilidades/cores.css';
+@import './assets/utilidades/componentes.css';
+
 
 /* HOME */
 @import './home/introducao.css';

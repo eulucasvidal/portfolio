@@ -1,0 +1,37 @@
+/* Configurações de container geral */
+.container{
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Configurações de Redes sociais */
+.redes-sociais{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 0px;
+}
+/* Configurações dos Titulos */
+.titulo{
+    font: 700 3rem / 1.2 'Roboto Slab', serif;
+    color: var(--color-1);
+    position: relative;
+}
+/* Configurações de sublinhado abaixo dos Titulos */
+.detalhe::after{
+    content: '';
+    width: 80px;
+    height: 2px;
+    background: var(--color-p1);
+    position: absolute;
+    box-sizing: border-box;
+    top: 60px;
+    left: 0px;
+}
+/* Cor padrão para spans */
+span{
+    color: var(--color-p1);
+}

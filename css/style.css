@@ -8,6 +8,7 @@
 @import './utilidades/tipografia.css';
 @import './utilidades/cores.css';
 @import './utilidades/componentes.css';
+@import './utilidades/botao-topo.css';
 
 /* HOME */
 @import './home/introducao.css';

@@ -3,7 +3,10 @@
 @import './global/header.css';
 @import './global/menu-mobile.css';
 
-
+/*ASSETS*/
+/*BOTOES*/
+@import './assets/botoes/botao-config-global.css';
+@import './assets/botoes/botao-primario.css';
 /* UTILIDADES */
 @import './utilidades/tipografia.css';
 @import './utilidades/cores.css';

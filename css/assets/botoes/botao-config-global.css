@@ -1,0 +1,10 @@
+.botao{
+    display: flex;
+    align-items: center;
+	font: 500 1.15rem / 1.2 'Roboto Slab', serif;
+	padding: 16px 32px;
+	max-width: max-content;
+   	border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}

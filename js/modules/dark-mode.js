@@ -14,6 +14,8 @@ export default function initDarkMode() {
       document.querySelector("#faculdade").src ="./img/icones/faculdade-mostarda.svg";
       document.querySelector("#cursos").src ="./img/icones/cursos-mostarda.svg";
       document.querySelector("#idioma").src ="./img/icones/idioma-mostarda.svg";
+      
+      document.querySelector("#scrollingX").src ="./img/icones/scrollingX-mostarda.svg";
     } else {
       document.querySelector("#logo").src = "./img/logo/logo-amarelo.svg";
       document.querySelector("#email").src = "./img/redes/email-amarelo.svg";
@@ -24,6 +26,8 @@ export default function initDarkMode() {
       document.querySelector("#faculdade").src ="./img/icones/faculdade-amarelo.svg";
       document.querySelector("#cursos").src ="./img/icones/cursos-amarelo.svg";
       document.querySelector("#idioma").src ="./img/icones/idioma-amarelo.svg";
+
+      document.querySelector("#scrollingX").src ="./img/icones/scrollingX-amarelo.svg";
     }
   });
 }

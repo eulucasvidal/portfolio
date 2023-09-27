@@ -1,14 +1,42 @@
-.tecnologias-lista ul{
-    display: flex;
-    gap: 40px;
-    padding:0 20px 20px 20px;
-    max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow-x: auto;
+.tecnologias-lista ul {
+  display: flex;
+  gap: 40px;
+  padding: 0 20px 20px 20px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: auto;
 }
 
-.tecnologias-lista li{
-    flex: 1;
-    min-width: 60px;
+.tecnologias-lista li {
+  flex: 1;
+  min-width: 60px;
+}
+
+.scroll-container{
+    width: 100%;
+    display: none;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.scroll-content{
+    display: flex;
+    animation: scroll 2.5s linear infinite;
+}
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    50% {
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+@media(max-width:776px){
+    .scroll-container{
+        display: flex;
+    }
 }

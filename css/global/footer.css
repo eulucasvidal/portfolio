@@ -1,0 +1,45 @@
+.contato-bg{
+    background: var(--background-1);
+}
+
+.contato{
+    padding-top: 60px;
+    padding-bottom: 10px;
+    display: grid;
+}
+.contato > p{
+    text-align: center;
+}
+
+.contato-conteudo{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 1fr;
+}
+
+.contato-conteudo p{
+    max-width: 60ch;
+}
+
+.contato-informacoes ul li a{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+@media(max-width:800px){
+    .contato{
+        justify-items: center;
+        gap: 40px;
+    }
+    .contato-conteudo{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+        gap: 40px;
+    }
+    .contato-conteudo div .redes-sociais{
+        justify-content: center;
+    }
+}

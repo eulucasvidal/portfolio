@@ -1,30 +1,8 @@
 .btn-1{
-    background: var(--background-2);
+    background: var(--background-1);
     color: var(--color-1);
-    border: 1.5px solid var(--color-p1);
 }
-.btn-1:hover{
-    color: var(--color-p1);
-    transition: 0.6s;
-}
-.seta::after{
-    content: '';
-    display: inline-block;
-    width: 23px;
-    height: 11px;
-    margin-left: 12px;
-    background: url(../../../img/icones/seta-preto.svg), no-repeat;
-}
-.seta:hover::after{
-    transition: 0.7s;
-    transform: translateX(4px);
-}
-.seta:hover::after{
-    background: url(../../../img/icones/seta-amarelo.svg), no-repeat;
-}
-body.dark .seta::after{
-    background: url(../../../img/icones/seta-branco.svg), no-repeat;
-}
-body.dark .seta:hover::after{
-    background: url(../../../img/icones/seta-mostarda.svg), no-repeat;
+.btn-1 .icon{
+  background:var(--color-p1);
+  color: #000000;
 }

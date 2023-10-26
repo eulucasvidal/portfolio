@@ -1,10 +1,38 @@
-.botao{
-    display: flex;
-    align-items: center;
-	font: 500 1.15rem / 1.2 'Roboto Slab', serif;
-	padding: 16px 32px;
-	max-width: max-content;
-   	border-radius: 10px;
-    cursor: pointer;
-    text-decoration: none;
+
+/* BOTAO NOVO */
+.botao-principal{
+  display: flex;
+  align-items: center;
+  font: 500 1.15rem / 1.2 "Roboto Slab", serif;
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+  padding-left: 1.2em;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+  cursor: pointer;
+}
+.botao-principal .icon{
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 5px;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+.botao-principal:hover .icon {
+  width: calc(100% - 0.6em);
+}
+.botao-principal:active .icon {
+  transform: scale(0.95);
+}
+.botao-principal .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
 }

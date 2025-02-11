@@ -27,13 +27,13 @@ const Footer = () => {
         <div className={`${styles.footerMenu} links`}>
           <ul>
             <li className="detailList">
-              <a href="#">instagram</a>
+              <a href="https://www.instagram.com/eu.lucasvidal/" target='_blank' rel='noopener noreferrer'>instagram</a>
             </li>
             <li className="detailList">
-              <a href="#">gitHub</a>
+              <a href="https://github.com/eulucasvidal" target='_blank' rel='noopener noreferrer'>gitHub</a>
             </li>
             <li className="detailList">
-              <a href="#">linkedin</a>
+              <a href="https://www.linkedin.com/in/goncalves-lucas/" target='_blank' rel='noopener noreferrer'>linkedin</a>
             </li>
             <li className="detailLocal">
               <img src={ImageLocal} alt="Icon localization" />

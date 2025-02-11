@@ -7,10 +7,10 @@ import InstagramIcon from '../../Assets/Img/Svg/Icons/instagram.svg';
 
 const SocialMidia = () => {
   const socialMidiaList = [
-    {href:'https://www.linkedin.com/feed/',icon:LinkedInIcon,name:'LinkedIn',},
-    {href:'https://github.com/',icon:GitHubIcon,name:'GitHub',},
+    {href:'https://www.linkedin.com/in/goncalves-lucas/',icon:LinkedInIcon,name:'LinkedIn',},
+    {href:'https://github.com/eulucasvidal',icon:GitHubIcon,name:'GitHub',},
     {href:'./public/curriculo/curriculo-lucas.pdf',icon:DownloadIcon,name:'PDF Curriculo',},
-    {href:'https://www.instagram.com/',icon:InstagramIcon,name:'Instagram',}
+    {href:'https://www.instagram.com/eu.lucasvidal/',icon:InstagramIcon,name:'Instagram',}
   ];
   return (
     <ul className={`${styles.socialMedia} links`}>

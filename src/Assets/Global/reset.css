@@ -1,0 +1,23 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: var(--text-color);
+}
+ul{
+  padding: 0px;
+  list-style: none;
+}
+h1,h2,h3,h4,ul,p{
+  margin: 0px;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+img,video{
+  max-width: 100%;
+  display: block;
+  height: auto;
+}

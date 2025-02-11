@@ -1,0 +1,17 @@
+.title{
+  text-transform: uppercase;
+  font: 800 6.5rem / 0.8 'Roboto Slab', serif;
+  text-align: center;
+  background: linear-gradient(
+    to bottom,
+    #B4B6BF,
+    #E3E4E7);
+  color: transparent;
+  background-clip: text;
+  padding: 5px;
+}
+@media(max-width:1050px){
+  .title{
+    font-size: 3rem;
+  }
+}

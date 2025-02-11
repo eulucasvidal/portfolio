@@ -1,0 +1,24 @@
+.socialMedia{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.socialMedia li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.links li{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+@media(max-width:700px){
+  .socialMedia{
+    justify-content: center;
+  }
+}

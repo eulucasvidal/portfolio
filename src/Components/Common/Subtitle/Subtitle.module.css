@@ -1,0 +1,10 @@
+.subtitle{
+  font: 500 3rem / 1.2 'Roboto Slab', serif;
+  text-transform: capitalize;
+  position: relative;
+}
+@media(max-width:1050px){
+  .subtitle{
+    font-size: 2rem;
+  }
+}

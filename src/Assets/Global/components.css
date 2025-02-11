@@ -1,0 +1,95 @@
+.container{
+  box-sizing: border-box;
+  max-width: 1600px;
+  padding: 150px 30px;
+  margin: 0 auto;
+}
+@media(max-width:1050px){
+  .container{
+    padding: 75px 15px;
+  }
+}
+
+/* detalhe abaixo dos subtitulos sections*/
+.detail::after{
+  content: '';
+  width: 80px;
+  height: 4px;
+  background: #FBBF24;
+  position: absolute;
+  box-sizing: border-box;
+  top: 60px;
+  left: 0px;
+}
+@media(max-width:1050px){
+  .detail::after{
+    top: 40px;
+    width: 50px;
+    height: 2px;
+  }
+}
+/* detalhe ao lado dos links e listas*/
+.detailList{
+  position: relative;
+  cursor: pointer;
+}
+.detailList::after{
+  content: '';
+  box-sizing: border-box;
+  width: 10px;
+  height: 3px;
+  background: #FBBF24;
+  top: 50%;
+  left: -20px;
+  position: absolute;
+}
+.detailLocal{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+  font: 400 1rem / 1.2 'Roboto Slab', serif;
+}
+/* links*/
+.links li{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.links a{
+  font: 400 1rem / 1.2 'Roboto Slab', serif;
+  text-transform: capitalize;
+  padding: 5px;
+  position: relative;
+}
+.links a::after{
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: #FBBF24;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s ease-in-out;
+}
+.links a:hover::after,
+.links a:hover{
+  width: 100%;
+}
+/* logo */
+.logo{
+  font: 600 1.2rem/ 1.2 'Roboto Slab', serif;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.logo > span{
+  color: #FBBF24;
+}
+/* numero em destaque */
+.numberDetail{
+  font: 800 15rem / 0.8 'Roboto Slab', serif;
+}
+.numberDetail span{
+  color:  #FBBF24;
+}

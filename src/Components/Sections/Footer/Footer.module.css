@@ -1,0 +1,46 @@
+.footerBg{
+  background:var(--first-main-color);
+  padding: 5px;
+}
+.footer{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-items: center;
+  padding: 100px 30px;
+  background:  url(../../../Assets/Img/Svg/Decorations/botton-right-p.svg) no-repeat bottom right,  url(../../../Assets/Img/Svg/Decorations/top-left-p.svg) no-repeat top left;
+}
+.footerMenu{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footerMenu ul{
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  gap: 10px;
+}
+
+.license{
+  padding: 5px;
+  text-align: center;
+  color:var( --text-color);
+  background:#000000;
+  font: 300 1rem / 1.2 'Roboto Slab', serif;
+}
+@media(max-width:800px){
+  .footer{
+      justify-items: center;
+      grid-template-columns: repeat(2,1fr);
+      gap: 50px;
+  }
+  .footerMenu{
+      gap: 25px;
+  }
+  .footerMenu .detailLocal{
+    padding-top: 30px;
+  }
+  .license{
+    font-size: 0.8rem;
+  }
+}

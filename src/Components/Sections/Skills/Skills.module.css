@@ -1,0 +1,16 @@
+.skillBg{
+  background: var(--second-main-color) url(../../../Assets/Img/Images/Background/bg.svg) center top repeat-x;
+}
+.skills{
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+}
+
+@media(max-width:1000px){
+  .skills{
+    align-items: center;
+    justify-items: center;
+    gap: 100px;
+  }
+}

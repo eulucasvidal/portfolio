@@ -1,0 +1,11 @@
+:root{
+  --first-main-color :#0E0E0E;
+  --second-main-color:#191919;
+
+  --text-color:#F5F5F5;
+
+  --detail-color:#FBBF24;
+}
+.corDetail{
+  color: var(--detail-color);
+}

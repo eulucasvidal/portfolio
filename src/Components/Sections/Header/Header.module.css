@@ -1,0 +1,84 @@
+.headerBg{
+  background: var(--first-main-color);
+  position: fixed;
+  width: 100%;
+  height: max-content;
+  z-index: 10;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 80px;
+  justify-content: space-between;
+  padding: 20px !important;
+}
+.headerNav{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.headerNavMobile{
+  display: none;
+  opacity:0;
+}
+.headerNavMobileActive{
+  display: block;
+  position: absolute;
+  top: 80px;
+  z-index: 1;
+  background: var(--second-main-color)url(../../../Assets/Img/Images/Background/nav-bg.png) right no-repeat;
+  background-size: cover;
+  width: 100%;
+  right: 0;
+  height: 100vh;
+  padding-top: 200px;
+  opacity: 1;
+}
+
+.headerNavMobileActive li a {
+  color: #FFFFFF;
+  font: 700 3rem / 1 'Roboto Slab', serif;
+  text-transform: uppercase;
+  padding: 15px 50px;
+  visibility: visible;
+}
+.navButton{
+  background: linear-gradient(#ffbb00, #f2a50c);
+  border-radius: 2rem;
+  height: 40px;
+  width: 40px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  transition: 0.1s;
+  cursor: pointer;
+  color: #0E0E0E;
+}
+.navButton::after{
+  content: '';
+  display: block;
+  height: 2px;
+  width: 1.2rem;
+  border-radius: 2px;
+  background:currentColor;
+  box-shadow: 0 6px currentColor, 0 -6px currentColor;
+  transition: 0.3s;
+} 
+.navButton:focus,
+.navButton:hover,
+.navButtonActive {
+  outline: none;
+  background: #0E0E0E;
+  box-shadow: 0 0 0 2px #f2a50c;
+  border-color: #f2a50c;
+  color: #f2a50c;
+}
+.navButtonActive::after {
+  transform: rotate(90deg);
+  width: 4px;
+  height: 4px;
+  box-shadow: 0 px currentColor, 0 -8px currentColor;
+}

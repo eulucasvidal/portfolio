@@ -1,0 +1,17 @@
+.button{
+  font: 500 1.15rem / 1 "Roboto Slab", serif;
+  background: linear-gradient(#ffbb00, #f2a50c);
+  color: #0E0E0E;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  border: none;
+  text-transform: capitalize;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 8px 10px;
+  height: max-content;
+  width: max-content;
+}
+.button:hover{
+  background: linear-gradient(#ffb60d, #e59317);
+}

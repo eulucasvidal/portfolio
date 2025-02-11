@@ -1,0 +1,52 @@
+.aboutBg{
+  background: var(--second-main-color) url(../../../Assets/Img/Images/Background/bg.svg) center top;
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.about p{
+  max-width: 60ch;
+}
+.aboutContent{
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-around;
+  padding: 100px 0px;
+}
+.aboutImg{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.aboutInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+.aboutText{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+@media(max-width:1050px){
+  .about{
+    text-align: center;
+    gap: 30px;
+  }
+
+  .aboutContent{
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+  }
+  .aboutImg {
+    text-align: start;
+  }
+  .aboutImg img{
+    height: 400px;
+  }
+}

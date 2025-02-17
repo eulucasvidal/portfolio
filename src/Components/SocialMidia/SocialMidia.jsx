@@ -9,7 +9,7 @@ const SocialMidia = () => {
   const socialMidiaList = [
     {href:'https://www.linkedin.com/in/goncalves-lucas/',icon:LinkedInIcon,name:'LinkedIn',},
     {href:'https://github.com/eulucasvidal',icon:GitHubIcon,name:'GitHub',},
-    {href:'',icon:DownloadIcon,name:'PDF Curriculo',},
+    {href:'#',icon:DownloadIcon,name:'PDF Curriculo',},
     {href:'https://www.instagram.com/eu.lucasvidal/',icon:InstagramIcon,name:'Instagram',}
   ];
   return (

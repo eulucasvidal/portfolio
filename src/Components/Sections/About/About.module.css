@@ -30,14 +30,13 @@
 .aboutText{
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 40px;
 }
 @media(max-width:1050px){
   .about{
     text-align: center;
     gap: 30px;
   }
-
   .aboutContent{
     flex-direction: column;
     align-items: center;

@@ -21,26 +21,18 @@ const About = () => {
           <div className={`${styles.aboutInfo}`}>
             <FadeIn>
             <p className="fontXsb">
-              Com um paixão para projeto e desenvolvimento,EU pegar projetos de
-              ideação para lançar, garantindo um sem costura jornada que folhas
-              um duradouro positivo impacto sobre o digital paisagem e seu
-              negócios.
+              "Olá, eu sou Lucas Gonçalves e trabalho com desenvolvimento front-end. Gosto de criar interfaces funcionais e bem construídas, sempre focadas em uma boa experiência para o usuário."
             </p>
             <div className={`${styles.aboutText}`}>
               <FadeIn>
               <span className="fontXsb">(Sobre Mim)</span>
               <p className="fontXs">
-                Criar ótimas experiências na web é meu foco principal. Garanto
-                que cada projeto deixe os usuários com uma sensação de bem-estar
-                por meio de atenção meticulosa aos detalhes e princípios de
-                design centrados no usuário.
+              Atualmente morando na cidade turística de São Roque/SP, comecei trabalhando em empregos variados, como manutenção de internet e área de vendas no setor varejista entre outros.
               </p>
               <p className="fontXs">
-                Quando não estou imerso em desenvolvimento e design da web, você
-                pode me encontrar compartilhando insights sobre minha jornada
-                freelance no YouTube, praticando escalada, tocando música ou
-                cuidando das minhas queridas plantas domésticas.
+              Embora o turismo seja a principal fonte de emprego na região, meu verdadeiro interesse sempre foi a tecnologia.
               </p>
+              <p className="fontXs">Após conhecer pessoas que trabalhavam com tecnologia, fui apresentado à programação há cerca de 4 anos. Desde então, tenho estudado e me dedicado à criação de interfaces e aplicações por meio de graduações a distância.</p>
               <SocialMidia/>
               </FadeIn>
             </div>

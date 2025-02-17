@@ -15,8 +15,7 @@ const Intro = () => {
             <h1 className="fontXxlb">Lucas Gonçalves</h1>
             <h2 className="fontLb">Desenvolvedor Front End</h2>
             <p className="fontS">
-              Ajudo sua empresa e startup a obter uma vantagem justa por meio de
-              sites de marketing personalizados e voltados para resultados.
+              " Estou pronto para colaborar e crescer com sua equipe, desenvolvendo soluções front-end que fazem a diferença! "
             </p>
             <div className="detailLocal">
               <img src={ImageLocal} alt="Icon localization" />

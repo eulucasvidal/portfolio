@@ -16,8 +16,7 @@ const Projects = () => {
             <div className={`${styles.projectsInfo}`}>
               <Subtitle text="projetos" />
               <p className="fontXsb">
-                Apresentou projetos que ter estive meticulosamente feito a mão
-                com paixão para dirigir resultados e impacto
+                " Explore os projetos mais recentes onde aplico minhas habilidades para criar interfaces e soluções inovadoras. "
               </p>
             </div>
             <div className={`${styles.projectsContainer}`}>

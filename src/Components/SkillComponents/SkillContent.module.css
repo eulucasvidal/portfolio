@@ -3,8 +3,10 @@
   flex-direction: row;
   justify-content: space-around;
   background:
-  url(../../Assets/Img/Svg/Decorations/right-top.svg)top right no-repeat, url(../../Assets/Img/Svg/Decorations/botton-left.svg) bottom left no-repeat;
-  margin-bottom: 150px;
+  url(../../Assets/Img/Svg/Decorations/right-top.svg)top right no-repeat, url(../../Assets/Img/Svg/Decorations/botton-left.svg) bottom left no-repeat, #191919;
+  position: sticky;
+  top: 6rem;
+  height: 750px;
 }
 .skillItemText{
   display: flex;
@@ -26,9 +28,9 @@
 @media(max-width:1000px){
   .skillItem {
     flex-direction: column;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     gap: 15px;
-    background: none;
+    background: #191919;
   }
   .skillItem > span,
   .skillItemText h2{

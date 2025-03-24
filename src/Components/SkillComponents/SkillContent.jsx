@@ -8,6 +8,7 @@ const SkillContent = () => {
       id: 1,
       number: '( 01 )',
       titulo: 'Tecnologias',
+      zindex: 1,
       frase:
         ' Ao longo de minha experiencia eu escolhi algumas tecnologias para eu me especializar e ter o melhor desempenho nos projetos.',
       itens: [
@@ -52,6 +53,7 @@ const SkillContent = () => {
       id: 2,
       number: '( 02 )',
       titulo: 'Trabalho em Equipe',
+      zindex: 2,
       frase:
         ' Uma das minhas principais virtudes, ao longo de minha carreira mesmo fora da area de tecnologia, é o trabalho em equipe.',
       itens: [
@@ -81,6 +83,7 @@ const SkillContent = () => {
       id: 3,
       number: '( 03 )',
       titulo: 'Principais Habilidades',
+      zindex: 3,
       frase:
         ' Além de aprender sobre as tecnologias é muito importante ter algumas habilidades, para lidar com essas e mais tecnologias na pratica.',
       itens: [

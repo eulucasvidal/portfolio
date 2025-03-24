@@ -6,7 +6,7 @@
   url(../../Assets/Img/Svg/Decorations/right-top.svg)top right no-repeat, url(../../Assets/Img/Svg/Decorations/botton-left.svg) bottom left no-repeat, #191919;
   position: sticky;
   top: 6rem;
-  height: 750px;
+  height: 900px;
 }
 .skillItemText{
   display: flex;

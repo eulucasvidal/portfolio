@@ -7,15 +7,15 @@ import FadeIn from '../../Animation/FadeIn';
 
 const Skills = () => {
   return (
-    <article className={`${styles.skillBg}`}>
+    <section className={`${styles.skillBg}`}>
       <FadeIn>
-        <section className={`${styles.skills} container`}>
+        <article className={`${styles.skills} container`}>
           <Title text="minhas habilidades" />
           <Subtitle text="habilidades técnicas e soft skills" />
           <SkillContent />
-        </section>
+        </article>
       </FadeIn>
-    </article>
+    </section>
   );
 };
 

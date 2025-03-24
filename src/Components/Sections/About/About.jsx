@@ -9,8 +9,8 @@ import FadeIn from '../../Animation/FadeIn';
 
 const About = () => {
   return (
-    <article className={`${styles.aboutBg}`}>
-      <section className={`${styles.about} container`}>
+    <section className={`${styles.aboutBg}`}>
+      <article className={`${styles.about} container`}>
         <FadeIn>
         <Title text="alem do front end"/>
         <div className={`${styles.aboutContent}`}>
@@ -40,8 +40,8 @@ const About = () => {
           </div>
         </div>
         </FadeIn>
-      </section>
-    </article>
+      </article>
+    </section>
   );
 };
 

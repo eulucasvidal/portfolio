@@ -19,24 +19,17 @@
   align-items: center;
   justify-content: end;
   gap: 100px;
+  position: sticky;
+  top: 5rem;
+  padding: 40px 10px;
+  background: var(--first-main-color);
 }
 .projectsInfo > p{
   max-width: 50ch;
 }
-.projectsContainer{
-  height: 100vh;
-  scroll-snap-type:y mandatory;
-  overflow-y: auto;
-}
-.projectsContainer::-webkit-scrollbar{
-  display: none;
-}
 @media(max-width:62rem){
   .projectsContentBg{
     border-radius: 25px;
-  }
-  .projectsContainer{
-    height: 70vh;
   }
   .projectsInfo{
     justify-content: center;
@@ -48,8 +41,5 @@
     flex-direction: column;
     gap: 50px;
     text-align: center;
-  }
-  .projectsContainer{
-    height: 50vh;
   }
 }

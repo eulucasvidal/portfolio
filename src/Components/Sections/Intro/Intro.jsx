@@ -7,8 +7,8 @@ import FadeIn from '../../Animation/FadeIn';
 
 const Intro = () => {
   return (
-    <article className={`${styles.introBg}`}>
-      <section className={`${styles.intro} container`}>
+    <section className={`${styles.introBg}`}>
+      <article className={`${styles.intro} container`}>
         <div className={`${styles.introContent}`}>
           <FadeIn>
             <span className="fontMb">Olá, eu sou</span>
@@ -29,8 +29,8 @@ const Intro = () => {
             <img src={imgCartoon} alt="Imagen cartoon da seção intro" />
           </FadeIn>
         </div>
-      </section>
-    </article>
+      </article>
+    </section>
   );
 };
 

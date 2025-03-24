@@ -8,24 +8,26 @@ import FadeIn from '../../Animation/FadeIn';
 const Projects = () => {
 
   return (
-    <article className={`${styles.projectsBg}`}>
-      <section className={`${styles.projectsContentBg}`}>
+    <section className={`${styles.projectsBg}`}>
+      <article className={`${styles.projectsContentBg}`}>
         <div className={`${styles.projects} container`}>
           <FadeIn>
             <Title text="projetos recentes" />
-            <div className={`${styles.projectsInfo}`}>
-              <Subtitle text="projetos" />
-              <p className="fontXsb">
-                " Explore os projetos mais recentes onde aplico minhas habilidades para criar interfaces e soluções inovadoras. "
-              </p>
-            </div>
-            <div className={`${styles.projectsContainer}`}>
-              <ProjectsCards />
+            <div>
+              <div className={`${styles.projectsInfo}`}>
+                <Subtitle text="projetos" />
+                <p className="fontSb">
+                  " Explore os projetos mais recentes onde aplico minhas habilidades para criar interfaces e soluções inovadoras. "
+                </p>
+              </div>
+              <div className={`${styles.projectsContainer}`}>
+                <ProjectsCards />
+              </div>
             </div>
           </FadeIn>
         </div>
-      </section>
-    </article>
+      </article>
+    </section>
   );
 };
 

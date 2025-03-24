@@ -5,8 +5,7 @@
   background:
   url(../../Assets/Img/Svg/Decorations/right-top.svg)top right no-repeat, url(../../Assets/Img/Svg/Decorations/botton-left.svg) bottom left no-repeat, #191919;
   position: sticky;
-  top: 6rem;
-  height: 900px;
+  top: 5rem;
 }
 .skillItemText{
   display: flex;
@@ -28,9 +27,11 @@
 @media(max-width:1000px){
   .skillItem {
     flex-direction: column;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
+    position: initial;
+    top: none;
     gap: 15px;
-    background: #191919;
+    background: none;
   }
   .skillItem > span,
   .skillItemText h2{

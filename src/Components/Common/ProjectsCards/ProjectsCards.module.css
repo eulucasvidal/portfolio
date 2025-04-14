@@ -1,0 +1,63 @@
+.cardContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.cardInfo{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.cardInfo img{
+  width: max-content;
+}
+.cardInfo p{
+  max-width: 50ch;
+}
+.cardButtons{
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  gap: 15px;
+}
+
+.techsList{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.spanTech{
+  font: 700 0.625rem/1 "Inter", sans-serif;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #2C2C2C;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+@media(max-width:62rem){
+  .cardContainer{
+    grid-template-columns: 1fr;
+    height: 70vh;
+  }
+  .cardContainer span{
+    display: none;
+  }
+  .cardInfo h3{
+    font-size: 1.5rem;
+    padding-top: 10px;
+  }
+}
+@media(max-width:40rem){
+  .cardContainer{
+    align-items: start;
+    height: 50vh;
+  }
+}

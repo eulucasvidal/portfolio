@@ -1,5 +1,5 @@
 .headerBg{
-  background: var(--first-main-color);
+  background: var(--color-white);
   position: fixed;
   width: 100%;
   height: max-content;
@@ -18,6 +18,9 @@
   flex-direction: row;
   gap: 20px;
 }
+.headerNav li{
+  color: var(--first-main-color);
+}
 .headerNavMobile{
   display: none;
   opacity:0;
@@ -27,7 +30,7 @@
   position: absolute;
   top: 80px;
   z-index: 1;
-  background: var(--second-main-color)url(../../../Assets/Img/Images/Background/nav-bg.png) right no-repeat;
+  background: var(--second-main-color)url(../../../Assets/Img/Background/nav-bg.png) right no-repeat;
   background-size: cover;
   width: 100%;
   right: 0;

@@ -1,32 +1,16 @@
 .introBg{
-  background: var(--second-main-color) url(../../../Assets/Img/Images/Background/bg.svg) center;
+  background: var(--color-white);
 }
 .intro{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: end;
-  justify-items: flex-end;
-}
-
-.introContent{
   display: flex;
-  align-items: start;
+  align-items: center;
   flex-direction: column;
-  gap: 30px;
-  margin-top: 160px;
+  justify-content: center;
+  gap: 40px;
+  padding: 160px 0px;
 }
 @media(max-width:1200px){
-  .intro{
-    grid-template-columns: 1fr;
-    justify-items: center;
-    gap: 30px;
-  }
-  .introContent{
-    align-items: center;
-    text-align: center;
-    margin-top: 100px;
-    gap: 20px;
-  }
+
   .intro h1{
     font-size: 3rem
   }

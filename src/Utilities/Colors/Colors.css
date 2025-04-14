@@ -1,6 +1,8 @@
 :root{
-  --first-main-color :#0E0E0E;
+  --first-main-color :#050505;
   --second-main-color:#191919;
+
+  --color-white:#FFFFFF;
 
   --text-color:#F5F5F5;
 
@@ -8,4 +10,7 @@
 }
 .corDetail{
   color: var(--detail-color);
+}
+.corBlack{
+  color: var(--first-main-color);
 }

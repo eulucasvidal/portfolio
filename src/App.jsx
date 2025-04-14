@@ -1,6 +1,5 @@
 import React from 'react';
 import '../src/Assets/Global/globalStyles.css';
-
 import Header from './Components/Sections/Header/Header';
 import Intro from './Components/Sections/Intro/Intro';
 import About from './Components/Sections/About/About';
@@ -14,8 +13,8 @@ const App = () => {
     <>
     <Header/>
     <Intro/>
-    <Projects/>
     <About/>
+    <Projects/>
     <Skills/>
     <Footer/>
     </>

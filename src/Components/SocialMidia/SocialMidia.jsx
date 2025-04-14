@@ -17,7 +17,7 @@ const SocialMidia = () => {
       {socialMidiaList.map((link, index)=>(
         <li key={index}>
           <img src={link.icon} alt={link.name} />
-          <a href={link.href} target='_blank'>{link.name}</a>
+          <a href={link.href} target='_blank' className='corBlack'>{link.name}</a>
         </li>
       ))}
     </ul>

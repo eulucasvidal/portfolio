@@ -10,7 +10,7 @@ const Skills = () => {
     <section className={`${styles.skillBg}`}>
       <FadeIn>
         <article className={`${styles.skills} container`}>
-          <Title text="minhas habilidades" />
+          <Title text="o que utilizo para criar os" span="melhores resultados"/>
           <Subtitle text="habilidades técnicas e soft skills" />
           <SkillContent />
         </article>

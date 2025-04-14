@@ -10,24 +10,6 @@
   }
 }
 
-/* detalhe abaixo dos subtitulos sections*/
-.detail::after{
-  content: '';
-  width: 80px;
-  height: 4px;
-  background: #FBBF24;
-  position: absolute;
-  box-sizing: border-box;
-  top: 60px;
-  left: 0px;
-}
-@media(max-width:1050px){
-  .detail::after{
-    top: 40px;
-    width: 50px;
-    height: 2px;
-  }
-}
 /* detalhe ao lado dos links e listas*/
 .detailList{
   position: relative;

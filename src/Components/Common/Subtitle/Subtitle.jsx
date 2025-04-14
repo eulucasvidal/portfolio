@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from '../Subtitle/Subtitle.module.css'
 
-const Subtitle = ({text}) => {
+const Subtitle = ({text, span}) => {
   return (
-    <h2 className={`${styles.subtitle} detail`}>{text}</h2>
+    <h2 className={`${styles.subtitle}`}>{text} <span className={`${styles.subtitleSpan}`}>{span}</span></h2>
   )
 }
 

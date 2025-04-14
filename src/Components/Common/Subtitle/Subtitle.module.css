@@ -1,7 +1,17 @@
 .subtitle{
-  font: 500 3rem / 1.2 'Roboto Slab', serif;
-  text-transform: capitalize;
+  font: 800 4rem/1 "Inter", sans-serif;
+  max-width: 13ch;
+  text-transform: uppercase;
   position: relative;
+}
+.subtitleSpan{
+    background: linear-gradient(
+      to right,
+      #35B3FF,
+      #812FFF,
+      #E737FF);
+    color: transparent;
+    background-clip: text;
 }
 @media(max-width:1050px){
   .subtitle{

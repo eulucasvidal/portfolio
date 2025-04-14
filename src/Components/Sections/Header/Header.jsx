@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../Header/Header.module.css';
 import useMedia from '../../../Hooks/useMedia';
+import ImageLogo from '../../../Assets/Img/Svg/logo/logo-black.svg';
 
 const Header = () => {
   const mobile = useMedia('(max-width:40rem)');
@@ -14,9 +15,7 @@ const Header = () => {
   return (
     <header className={`${styles.headerBg}`}>
       <section className={`${styles.header} container`}>
-        <p className="logo">
-          port<span>folio</span>
-        </p>
+        <img src={ImageLogo} alt="" />
         <nav>
           {mobile && (
             <button

@@ -1,14 +1,18 @@
 .title{
   text-transform: uppercase;
-  font: 800 6.5rem / 0.8 'Roboto Slab', serif;
-  text-align: center;
+  font: 800 6.25rem/1 "Inter", sans-serif;
+  text-align: start;
+  color: #35B3FF;
+  max-width: 16ch;
+}
+.titleSpan{
   background: linear-gradient(
-    to bottom,
-    #B4B6BF,
-    #E3E4E7);
+    to right,
+    #35B3FF,
+    #812FFF,
+    #E737FF);
   color: transparent;
   background-clip: text;
-  padding: 5px;
 }
 @media(max-width:1050px){
   .title{

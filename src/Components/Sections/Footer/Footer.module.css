@@ -26,7 +26,7 @@
   text-align: center;
   color:var( --text-color);
   background:#000000;
-  font: 300 1rem / 1.2 'Roboto Slab', serif;
+  font: 300 1rem/1 "Inter", sans-serif;
 }
 @media(max-width:800px){
   .footer{

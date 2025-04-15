@@ -9,24 +9,3 @@
   gap: 40px;
   padding: 160px 0px;
 }
-@media(max-width:1200px){
-
-  .intro h1{
-    font-size: 3rem
-  }
-  .intro h2{
-    font-size: 1.5rem;
-  }
-  .intro span{
-    font-size: 1.125rem;
-  }
-  .intro p{
-    font-size: 1rem;
-    max-width: 80ch;
-  }
-}
-@media(max-width:700px){
-  .intro > img{
-    height: 300px;
-  }
-}

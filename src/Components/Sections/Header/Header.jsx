@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <header className={`${styles.headerBg}`}>
       <section className={`${styles.header} container`}>
-        <img src={ImageLogo} alt="" />
+        <img src={ImageLogo} alt="Logotipo image" />
         <nav>
           {mobile && (
             <button

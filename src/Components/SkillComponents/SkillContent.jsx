@@ -1,5 +1,7 @@
 import React from 'react';
 import styles from '../../Components/SkillComponents/SkillContent.module.css';
+import Subtitle from '../../Components/Common/Subtitle/Subtitle';
+import Paragraph from '../../Components/Common/Paragraph/Paragraph';
 import { number } from 'prop-types';
 
 const SkillContent = () => {
@@ -125,14 +127,14 @@ const SkillContent = () => {
     <>
       {mainSkills.map((skill) => (
         <div className={`${styles.skillItem}`} key={skill.id}>
-          <span className="fontLb">{skill.number}</span>
+          <span>{skill.number}</span>
           <div className={`${styles.skillItemText}`}>
-            <h2 className="fontLb detail">{skill.titulo}</h2>
-            <p className="fontXsb">{skill.frase}</p>
+            <Subtitle text={skill.titulo}/>
+            <Paragraph text={skill.frase} />
             {skill.itens.map((item, index) => (
-              <ul className={`${styles.skillList} fontXs`} key={index}>
-                <li className="detailList">
-                  <span className="fontSb corDetail">{item.nome}</span>
+              <ul key={index}>
+                <li>
+                  <span>{item.nome}</span>
                   {item.descricao}
                 </li>
               </ul>

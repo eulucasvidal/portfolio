@@ -8,34 +8,8 @@
   align-items: center;
   gap: 50px;
 }
-
-.projectsInfo{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: end;
-  gap: 100px;
-  position: sticky;
-  top: 5rem;
-  padding: 40px 10px;
-  background: var(--first-main-color);
-}
-.projectsInfo > p{
-  max-width: 50ch;
-}
 @media(max-width:62rem){
   .projectsContentBg{
     border-radius: 25px;
-  }
-  .projectsInfo{
-    justify-content: center;
-    gap: 50px;
-  }
-}
-@media(max-width:40rem){
-  .projectsInfo{
-    flex-direction: column;
-    gap: 50px;
-    text-align: center;
   }
 }

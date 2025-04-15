@@ -1,31 +1,4 @@
-.fontXs,
-.fontXsb{
-  font: 400 1rem / 1.2 'Roboto Slab', serif;
-}
-.fontXsb{
-  font-weight: 500;
-}
+.linkstar {
+  font-family: 'LinkStar', sans-serif;
 
-.fontS,
-.fontSb{
-  font: 400 1.125rem / 1.2 'Roboto Slab', serif;
-}
-.fontSb{
-  font-weight: 500;
-}
-.fontMb{
-  font: 500 1.5rem / 1 'Roboto Slab', serif;
-}
-
-.fontL,
-.fontLb{
-    font: 400 2.5rem / 1 'Roboto Slab', serif;
-}
-
-.fontLb{
-    font-weight: 500;
-}
-
-.fontXxlb{
-  font: 800 4.5rem / 0.8 'Roboto Slab', serif;
 }

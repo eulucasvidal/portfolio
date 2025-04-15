@@ -5,11 +5,11 @@
   height: 100vh;
   scroll-snap-align: start;
 }
-.card{
+/* .card{
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
+} */
 .cardInfo{
   display: flex;
   flex-direction: column;

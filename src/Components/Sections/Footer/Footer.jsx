@@ -10,29 +10,29 @@ const Footer = () => {
         <Subtitle text="vamos trabalhar juntos?" />
         <div className={`${styles.footerMenu} links`}>
           <ul>
-            <li className="detailList">
+            <li>
               <a href="#">home</a>
             </li>
-            <li className="detailList">
+            <li>
               <a href="#">sobre</a>
             </li>
-            <li className="detailList">
+            <li>
               <a href="#">trabalhos</a>
             </li>
-            <li className="detailList">
+            <li>
               <a href="#">contato</a>
             </li>
           </ul>
         </div>
         <div className={`${styles.footerMenu} links`}>
           <ul>
-            <li className="detailList">
+            <li>
               <a href="https://www.instagram.com/eu.lucasvidal/" target='_blank' rel='noopener noreferrer'>instagram</a>
             </li>
-            <li className="detailList">
+            <li>
               <a href="https://github.com/eulucasvidal" target='_blank' rel='noopener noreferrer'>gitHub</a>
             </li>
-            <li className="detailList">
+            <li>
               <a href="https://www.linkedin.com/in/goncalves-lucas/" target='_blank' rel='noopener noreferrer'>linkedin</a>
             </li>
             <li className="detailLocal">

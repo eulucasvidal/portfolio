@@ -6,7 +6,7 @@ import Button from '../../../Utilities/Buttons/Button/Button';
 
 
 /* Imports abaixo são das logos dos projetos */
-import Logo1 from '../../../Assets/Img/Svg/logo-projects/bikestar.Svg';
+import Logo1 from '../../../Assets/Img/Svg/logo-projects/bikestar.svg';
 import Logo2 from '../../../Assets/Img/Svg/logo-projects/saintrock.svg';
 import Logo3 from '../../../Assets/Img/Svg/logo-projects/oceanbank.svg';
 import Logo4 from '../../../Assets/Img/Svg/logo-projects/embreve.svg';

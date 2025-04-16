@@ -47,3 +47,8 @@
     font-size: 3.5rem;
   }
 }
+@media(max-width: 500px) {
+  .textAnimate {
+    font-size: 3rem;
+  }
+}

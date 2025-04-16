@@ -6,7 +6,7 @@
 }
 @media(max-width:1000px){
   .container{
-    padding: 75px 15px;
+    padding: 75px 10px;
   }
 }
 
@@ -34,7 +34,7 @@
   content: "";
   height: 2px;
   width: 0%;
-  background-color: #FBBF24;
+  background-color: #35B3FF;
   position: absolute;
   bottom: 0;
   left: 0;

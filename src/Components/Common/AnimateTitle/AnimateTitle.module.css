@@ -1,0 +1,38 @@
+.preSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 50vh;
+}
+
+.textAnimate{
+  animation: fadeInText;
+  animation-timeline: view(auto auto);
+  font: 900 8rem/1.2 "Inter", sans-serif;
+  text-transform: uppercase;
+  text-wrap: wrap;
+  background: linear-gradient(
+    to right,
+    #35B3FF,
+    #812FFF,
+    #E737FF);
+  color: transparent;
+  background-clip: text;
+}
+@keyframes fadeInText{
+  0%{
+    opacity: 0;
+    filter: blur(30px);
+    transform: translateX(300px);
+  }
+  50%{
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0px);
+  }
+  100%{
+    opacity: 0;
+    filter: blur(30px);
+    transform: translateX(-300px);
+  }
+}

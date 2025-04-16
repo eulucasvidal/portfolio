@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "animation-timeline",
+          "animation-timeline: view(auto auto)",
+          "text-wrap",
+          "text-wrap: wrap"
+        ]
+      }
+    ],
+    "detect-css-reflows/composite": "off"
+  }
+}

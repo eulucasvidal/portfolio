@@ -1,16 +1,15 @@
 import React, { useRef, useEffect } from 'react';
 import styles from '../Projects/Projects.module.css';
-import Title from '../../Common/Title/Title';
 import ProjectsCards from '../../Common/ProjectsCards/ProjectsCards';
 import FadeIn from '../../Animation/FadeIn';
-
+import AnimateTilte from '../../Common/AnimateTitle/AnimateTitle';
 const Projects = () => {
-
+  const fraseProjects = ['explore meus', 'principais', 'trabalhos'];
   return (
     <section className={`${styles.projectsBg}`}>
+        <AnimateTilte words={fraseProjects} />
         <article className={`${styles.projects} container`}>
           <FadeIn>
-            <Title text="explore os meus" span="principais trabalhos"/>
             <div>
               <div className={`${styles.projectsContainer}`}>
                 <ProjectsCards />

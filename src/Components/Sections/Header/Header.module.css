@@ -40,14 +40,18 @@
 }
 
 .headerNavMobileActive li a {
-  color: #FFFFFF;
-  font: 700 3rem / 1 'Roboto Slab', serif;
+  color: var(--text-color);
+  font: 700 3rem/1.5 "Inter", sans-serif;
   text-transform: uppercase;
   padding: 15px 50px;
   visibility: visible;
 }
 .navButton{
-  background: linear-gradient(#ffbb00, #f2a50c);
+  background: linear-gradient(
+    to right,
+    #35B3FF,
+    #812FFF,
+    #E737FF);
   border-radius: 2rem;
   height: 40px;
   width: 40px;
@@ -58,7 +62,7 @@
   border: 1px solid transparent;
   transition: 0.1s;
   cursor: pointer;
-  color: #0E0E0E;
+  color: var(--text-color);
 }
 .navButton::after{
   content: '';
@@ -74,10 +78,9 @@
 .navButton:hover,
 .navButtonActive {
   outline: none;
-  background: #0E0E0E;
-  box-shadow: 0 0 0 2px #f2a50c;
-  border-color: #f2a50c;
-  color: #f2a50c;
+  box-shadow: 0 0 0 2px var(--second-main-color);
+  border-color: var(--second-main-color);
+  color:var(--second-main-color);
 }
 .navButtonActive::after {
   transform: rotate(90deg);

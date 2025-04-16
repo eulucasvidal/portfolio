@@ -1,5 +1,5 @@
 .skillBg{
-  background: var(--first-main-color) url(../../../Assets/Img/Background/bg.svg) center top repeat-x;
+  background: var(--first-main-color);
 }
 .skills{
   display: flex;

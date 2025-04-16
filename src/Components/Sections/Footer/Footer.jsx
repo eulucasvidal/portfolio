@@ -35,10 +35,6 @@ const Footer = () => {
             <li>
               <a href="https://www.linkedin.com/in/goncalves-lucas/" target='_blank' rel='noopener noreferrer'>linkedin</a>
             </li>
-            <li className="detailLocal">
-              <img src={ImageLocal} alt="Icon localization" />
-              <span>São Roque, SP / Brasil</span>
-            </li>
           </ul>
         </div>
       </section>

@@ -4,7 +4,7 @@
   padding: 150px 30px;
   margin: 0 auto;
 }
-@media(max-width:1050px){
+@media(max-width:1000px){
   .container{
     padding: 75px 15px;
   }

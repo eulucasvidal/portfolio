@@ -28,7 +28,7 @@
   background:#000000;
   font: 300 1rem/1 "Inter", sans-serif;
 }
-@media(max-width:800px){
+@media(max-width:750px){
   .footer{
       justify-items: center;
       grid-template-columns: repeat(2,1fr);

@@ -77,7 +77,7 @@ const ProjectsCards = () => {
             <div className={`${styles.cardButtons}`}>
                 <Button url={card.deploy} text="deploy"/>
                 <Button url={card.github} text="github" />
-              </div>
+            </div>
           </div>
           <img src={card.img} alt="imagem do projeto"/>
         </div>

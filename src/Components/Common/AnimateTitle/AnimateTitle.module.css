@@ -36,3 +36,14 @@
     transform: translateX(-300px);
   }
 }
+
+@media(max-width: 1000px) {
+  .textAnimate {
+    font-size: 5rem;
+  }
+}
+@media(max-width: 750px) {
+  .textAnimate {
+    font-size: 3.5rem;
+  }
+}

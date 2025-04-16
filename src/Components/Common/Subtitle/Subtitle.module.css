@@ -13,7 +13,7 @@
     color: transparent;
     background-clip: text;
 }
-@media(max-width:1050px){
+@media(max-width:1000px){
   .subtitle{
     font-size: 2rem;
   }

@@ -10,7 +10,8 @@
           "animation-timeline",
           "animation-timeline: view(auto auto)",
           "text-wrap",
-          "text-wrap: wrap"
+          "text-wrap: wrap",
+          "text-wrap: nowrap"
         ]
       }
     ],

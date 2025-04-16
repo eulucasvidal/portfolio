@@ -34,7 +34,11 @@
   content: "";
   height: 2px;
   width: 0%;
-  background-color: #35B3FF;
+  background: linear-gradient(
+    to right,
+    #35B3FF,
+    #812FFF,
+    #E737FF);
   position: absolute;
   bottom: 0;
   left: 0;

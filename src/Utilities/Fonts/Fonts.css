@@ -1,4 +1,6 @@
 .linkstar {
   font-family: 'LinkStar', sans-serif;
-
+}
+.fontXs{
+  font: 400 0.875rem/1.2rem 'Inter', sans-serif;
 }

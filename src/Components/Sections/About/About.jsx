@@ -3,6 +3,7 @@ import styles from '../About/About.module.css';
 import Paragraph from '../../Common/Paragraph/Paragraph';
 import imgCartoon from '../../../../public/ImagesCartoons/cartoon-intro.png';
 import FadeIn from '../../Animation/FadeIn';
+import { style } from 'framer-motion/client';
 
 const About = () => {
   return (
@@ -13,9 +14,9 @@ const About = () => {
             <img src={imgCartoon} alt="Imagen cartoon da seção about" />
               <div className={`${styles.aboutText}`}>
                 <Paragraph text="Olá, eu sou Lucas Gonçalves e trabalho com desenvolvimento front-end. Gosto de criar interfaces funcionais e bem construídas, sempre focadas em uma boa experiência para o usuário." />
-              <div>
-                <Paragraph text="Vamos tornar seu projeto uma realidade" />
-                <a href='#'>Entrar em contato</a>
+              <div className={`${styles.aboutContenteBtn}`}>
+                <span className='fontXs'>Vamos tornar seu projeto uma realidade</span>
+                <a href='#' className={`${styles.aboutButton}`}>Entrar em contato</a>
               </div>
               </div>
           </div>

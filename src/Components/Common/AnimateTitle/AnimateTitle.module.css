@@ -1,12 +1,18 @@
+.preSectionBg{
+  background-image: url(../../../Assets/Img/Background/bg.svg);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+
+}
 .preSection{
   display: flex;
   flex-direction: column;
   justify-content: center;
   min-height: 50vh;
-  background: var(--first-main-color) url(../../../Assets/Img/Background/bg.svg) center top repeat-x;
 }
 
-.textAnimate{
+.preSectionText{
   animation: fadeInText;
   animation-timeline: view(auto auto);
   font: 900 8rem/1.2 "Inter", sans-serif;
@@ -39,17 +45,17 @@
 }
 
 @media(max-width: 1000px) {
-  .textAnimate {
+  .preSectionText {
     font-size: 5rem;
   }
 }
 @media(max-width: 750px) {
-  .textAnimate {
+  .preSectionText {
     font-size: 3.5rem;
   }
 }
 @media(max-width: 500px) {
-  .textAnimate {
+  .preSectionText {
     font-size: 3rem;
   }
 }

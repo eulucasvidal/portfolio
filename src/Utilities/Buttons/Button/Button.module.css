@@ -1,12 +1,13 @@
 .button{
   font: 700 1rem/1 "Inter", sans-serif;
   text-transform: uppercase;
-  background-color: #000000;
-  color: #FFFFFF;
+  background: var(--first-main-color);
+  color: var(--white-color);
   border-radius: 20px;
   padding: 10px 20px;
   text-decoration: none;
   position: relative;
+  transition: .4s;
 }
 .button::before,
 .button::after{
@@ -24,4 +25,12 @@
     #812FFF,
     #E737FF);
   border-radius: 20px;
+
+}
+.button:hover{
+  background: linear-gradient(
+    to right,
+    #35B3FF,
+    #812FFF,
+    #E737FF);
 }

@@ -32,17 +32,19 @@
   font: 500 1rem/1.2rem 'Inter', sans-serif;
   text-wrap: nowrap;
   text-transform: uppercase;
-  position: relative;
+  border-bottom: 2px solid var(--color-white);
 }
-.aboutButton::after{
-  content: '';
-  display: block;
-  width: 100%;
-  height: 2px;
-  background-color: var(--color-white);
-  position: absolute;
-  cursor: pointer;
+.aboutButton:hover{
+  background: linear-gradient(
+      to right,
+      #35B3FF,
+      #812FFF,
+      #E737FF);
+    color: transparent;
+    background-clip: text;
+    border-color: transparent;
 }
+
 @media (max-width: 750px) {
   .aboutText{
     flex-direction: column;

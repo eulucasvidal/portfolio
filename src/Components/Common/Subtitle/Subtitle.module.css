@@ -10,9 +10,10 @@
       #35B3FF,
       #812FFF,
       #E737FF);
-    color: transparent;
-    background-clip: text;
+      color: transparent;
+      background-clip: text;
 }
+
 @media(max-width:1000px){
   .subtitle{
     font-size: 2rem;

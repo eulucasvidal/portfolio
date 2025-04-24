@@ -1,0 +1,100 @@
+.skillItem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.skillItem h2{
+  background: linear-gradient(
+    to right,
+    #35B3FF,
+    #812FFF,
+    #E737FF);
+    color: transparent;
+    background-clip: text;
+}
+.skillContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+.skillItem img{
+  max-width: 400px;
+}
+.skillInfo{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.gradientBlue{
+  background: linear-gradient(
+    to right,
+    #3DF8B8,
+    #2FA8E8,
+    #1D5FFE);
+}
+.gradientOrange{
+  background: linear-gradient(
+    to right,
+    #FFC225,
+    #FF6A29,
+    #FF4D14);
+}
+.gradientGreen{
+  background: linear-gradient(
+    to right,
+    #FFEA29,
+    #BFFD62,
+    #3AFF71);
+}
+.skillsTitle{
+  font: 800 4rem/1 "Inter", sans-serif;
+  max-width: 13ch;
+  text-transform: uppercase;
+  position: relative;
+  color: transparent;
+  background-clip: text;
+}
+.techList{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.techList span{
+  font: 600 1.125rem/1 "Inter", sans-serif;
+  background: linear-gradient(
+    to right,
+    #35B3FF,
+    #812FFF,
+    #E737FF);
+    color: transparent;
+    background-clip: text;
+  position: relative;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+.techList span::before{
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    #35B3FF,
+    #812FFF,
+    #E737FF);
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.techList li{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+@media(max-width:800px){
+  .skillContainer{
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}

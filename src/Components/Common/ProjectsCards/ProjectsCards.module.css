@@ -12,6 +12,7 @@
 .cardInfo img{
   width: max-content;
 }
+
 .cardInfo p{
   max-width: 50ch;
 }
@@ -21,7 +22,6 @@
   align-items: end;
   gap: 15px;
 }
-
 .techsList{
   display: flex;
   gap: 10px;
@@ -35,6 +35,42 @@
   background-color: #2C2C2C;
   border-radius: 20px;
   padding: 5px 10px;
+}
+.gradientPurple{
+  background: linear-gradient(
+    to right,
+    #35B3FF,
+    #812FFF,
+    #E737FF);
+}
+.gradientBlue{
+  background: linear-gradient(
+    to right,
+    #3DF8B8,
+    #2FA8E8,
+    #1D5FFE);
+}
+.gradientOrange{
+  background: linear-gradient(
+    to right,
+    #FFC225,
+    #FF6A29,
+    #FF4D14);
+}
+.gradientGreen{
+  background: linear-gradient(
+    to right,
+    #FFEA29,
+    #BFFD62,
+    #3AFF71);
+}
+.cardSpan{
+  font: 800 4rem/1 "Inter", sans-serif;
+  max-width: 13ch;
+  text-transform: uppercase;
+  position: relative;
+  color: transparent;
+  background-clip: text;
 }
 @media(max-width:1000px){
   

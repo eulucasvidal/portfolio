@@ -1,17 +1,21 @@
 import React from 'react';
 import styles from '../Skills/Skills.module.css';
-import SkillContent from '../../SkillComponents/SkillContent';
-import FadeIn from '../../Animation/FadeIn';
+import SkillsItem from '../../SkillsItem/SkillsItem';
 import AnimateTilte from '../../Common/AnimateTitle/AnimateTitle';
+import FadeIn from '../../Animation/FadeIn';
+import Subtitle from '../../Common/Subtitle/Subtitle';
 
 const Skills = () => {
-  const fraseSkills = ['habilidades','que criam','experiências'];
+  const fraseSkills = ['habilidades', 'que criam', 'experiências'];
   return (
     <section className={`${styles.skillBg}`}>
       <AnimateTilte words={fraseSkills} />
       <FadeIn>
         <article className={`${styles.skills} container`}>
-          <SkillContent />
+          <Subtitle text="Habilidades" />
+          <div className={`${styles.skillsContainer}`}>
+            <SkillsItem />
+          </div>
         </article>
       </FadeIn>
     </section>

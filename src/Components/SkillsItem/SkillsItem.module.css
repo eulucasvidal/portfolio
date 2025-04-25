@@ -97,4 +97,7 @@
     grid-template-columns: 1fr;
     justify-items: center;
   }
+  .skillItem img{
+    max-width: 250px;
+  }
 }

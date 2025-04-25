@@ -73,10 +73,12 @@
   background-clip: text;
 }
 @media(max-width:1000px){
-  
   .cardInfo h3{
     font-size: 1.5rem;
     padding-top: 10px;
+  }
+  .cardSpan{
+    font: 800 3rem/1 "Inter", sans-serif;
   }
 }
 @media(max-width:750px){

@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from '../SocialMidia/SocialMidia.module.css';
-import LinkedInIcon from '../../Assets/Img/Svg/Icons/linkedin.svg';
-import GitHubIcon from '../../Assets/Img/Svg/Icons/github.svg';
-import DownloadIcon from '../../Assets/Img/Svg/Icons/download.svg';
-import InstagramIcon from '../../Assets/Img/Svg/Icons/instagram.svg';
+import LinkedInIcon from '../../../Assets/Img/Svg/Icons/linkedin.svg';
+import GitHubIcon from '../../../Assets/Img/Svg/Icons/github.svg';
+import DownloadIcon from '../../../Assets/Img/Svg/Icons/download.svg';
+import InstagramIcon from '../../../Assets/Img/Svg/Icons/instagram.svg';
 
 const SocialMidia = () => {
   const socialMidiaList = [

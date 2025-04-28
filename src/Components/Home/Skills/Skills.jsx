@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../Skills/Skills.module.css';
-import SkillsItem from '../../SkillsItem/SkillsItem';
+import SkillsItem from '../../Common/SkillsItem/SkillsItem';
 import AnimateTilte from '../../Common/AnimateTitle/AnimateTitle';
 import FadeIn from '../../Animation/FadeIn';
 import Subtitle from '../../Common/Subtitle/Subtitle';

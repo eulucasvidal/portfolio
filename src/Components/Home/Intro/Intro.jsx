@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../Intro/Intro.module.css';
-import SocialMidia from '../../SocialMidia/SocialMidia';
+import SocialMidia from '../../Common/SocialMidia/SocialMidia';
 import ImageLocal from '../../../Assets/Img/Svg/Icons/local.svg';
 import FadeIn from '../../Animation/FadeIn';
 import Title from '../../Common/Title/Title';

@@ -1,14 +1,14 @@
 import React from 'react';
 import styles from './SkillsItem.module.css';
-import Subtitle from '../Common/Subtitle/Subtitle';
-import Paragraph from '../Common/Paragraph/Paragraph';
+import Subtitle from '../Subtitle/Subtitle';
+import Paragraph from '../Paragraph/Paragraph';
 import { number } from 'prop-types';
 import { img, title } from 'framer-motion/client';
 
 /*  Import das imagens*/
-import Cartoon1 from '../../../public/ImagesCartoons/cartoon-1.png';
-import Cartoon2 from '../../../public/ImagesCartoons/cartoon-2.png';
-import Cartoon3 from '../../../public/ImagesCartoons/cartoon-3.png';
+import Cartoon1 from '../../../Assets/Img/ImagesCartoons/cartoon-1.png';
+import Cartoon2 from '../../../Assets/Img/ImagesCartoons/cartoon-2.png';
+import Cartoon3 from '../../../Assets/Img/ImagesCartoons/cartoon-3.png';
 
 const SkillsItem = () => {
   const mainSkills = [
@@ -23,27 +23,33 @@ const SkillsItem = () => {
       tech: [
         {
           name: 'React',
-          description:'Desenvolvimento de interfaces dinâmicas e interativas utilizando componentes funcionais e hooks como useState, useEffect, useRef, entre outros',
+          description:
+            'Desenvolvimento de interfaces dinâmicas e interativas utilizando componentes funcionais e hooks como useState, useEffect, useRef, entre outros',
         },
         {
           name: 'JavaScript (ES6+)',
-          description:'Manipulação de DOM, criação de funções assíncronas, e uso de APIs modernas.',
+          description:
+            'Manipulação de DOM, criação de funções assíncronas, e uso de APIs modernas.',
         },
         {
           name: 'HTML5 & CSS3',
-          description:'Estruturação semântica de páginas, utilização de Flexbox e Grid, e estilização avançada.',
+          description:
+            'Estruturação semântica de páginas, utilização de Flexbox e Grid, e estilização avançada.',
         },
         {
           name: 'SASS',
-          description:'Pré-processamento de CSS para facilitar manutenção e reutilização de código, uso de variáveis, mixins e funções.',
+          description:
+            'Pré-processamento de CSS para facilitar manutenção e reutilização de código, uso de variáveis, mixins e funções.',
         },
         {
           name: 'Git & GitHub',
-          description:'Controle de versão, gerenciamento de branches e colaboração em projetos.',
+          description:
+            'Controle de versão, gerenciamento de branches e colaboração em projetos.',
         },
         {
           name: 'VS Code',
-          description:'Editor de código com personalização de plugins, atalhos além de diversas outras ferramentas.',
+          description:
+            'Editor de código com personalização de plugins, atalhos além de diversas outras ferramentas.',
         },
       ],
     },

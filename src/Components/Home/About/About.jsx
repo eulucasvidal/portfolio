@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../About/About.module.css';
 import Paragraph from '../../Common/Paragraph/Paragraph';
-import imgCartoon from '../../../../public/ImagesCartoons/cartoon-intro.png';
+import imgCartoon from '../../../Assets/Img/ImagesCartoons/cartoon-intro.png';
 import FadeIn from '../../Animation/FadeIn';
 import { style } from 'framer-motion/client';
 

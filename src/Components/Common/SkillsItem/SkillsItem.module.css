@@ -5,15 +5,6 @@
   justify-content: center;
   gap: 40px;
 }
-.skillItem h2{
-  background: linear-gradient(
-    to right,
-    #35B3FF,
-    #812FFF,
-    #E737FF);
-    color: transparent;
-    background-clip: text;
-}
 .skillContainer{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -96,6 +87,7 @@
   .skillContainer{
     grid-template-columns: 1fr;
     justify-items: center;
+    gap: 40px;
   }
   .skillContainer img{
     max-width: 250px;

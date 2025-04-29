@@ -13,7 +13,7 @@
 }
 .arrows{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   width: 90%;
   top: 15%;
@@ -47,7 +47,7 @@
 }
 @media(max-width:650px){
   .arrows{
-    top: 7%;
+    top: 8%;
     padding: 10px;
     width: 100%;
   }

@@ -131,7 +131,7 @@ const Skills = () => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + totalSkills) % totalSkills);
   }
   useEffect(()=>{
-    const intervalId = setInterval(nextItem, 5000);
+    const intervalId = setInterval(nextItem, 15000);
 
     return() => clearInterval(intervalId);
   },[])
@@ -145,8 +145,8 @@ const Skills = () => {
         <article className={`${styles.skills} container`}>
           <Subtitle text="Habilidades" />
           <div className={`${styles.arrows}`}>
-            <button className={`${styles.arrowBtn}`} onClick={prevItem} id='prev'></button>
-            <button className={`${styles.arrowBtn}`} onClick={nextItem} id='next'></button>
+            <button className={`${styles.arrowBtn}`} onClick={prevItem} id='prev'><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 15 13"><path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/></svg></button>
+            <button className={`${styles.arrowBtn}`} onClick={nextItem} id='next'><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 15 13"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/></svg></button>
           </div>
           <div className={`${styles.skillsContainer}`}>
             <SkillsItem  skill={mainSkills[currentIndex]}/>

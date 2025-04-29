@@ -10,15 +10,19 @@ const About = () => {
     <section className={`${styles.aboutBg}`}>
       <article className={`container`}>
         <FadeIn>
-          <div className={`${styles.about} `}>
+          <div className={`${styles.about}`}>
             <img src={imgCartoon} alt="Imagen cartoon da seção about" />
-              <div className={`${styles.aboutText}`}>
-                <Paragraph text="Olá, eu sou Lucas Gonçalves e trabalho com desenvolvimento front-end. Gosto de criar interfaces funcionais e bem construídas, sempre focadas em uma boa experiência para o usuário." />
+            <div className={`${styles.aboutText}`}>
+              <Paragraph text="Olá, eu sou Lucas Gonçalves e trabalho com desenvolvimento front-end. Gosto de criar interfaces funcionais e bem construídas, sempre focadas em uma boa experiência para o usuário." />
               <div className={`${styles.aboutContenteBtn}`}>
-                <span className='fontXs'>Vamos tornar seu projeto uma realidade</span>
-                <a href='#' className={`${styles.aboutButton}`}>Entrar em contato</a>
+                <span className="fontXs">
+                  Vamos tornar seu projeto uma realidade
+                </span>
+                <a href="#" className={`${styles.buttonAbout}`}>
+                  Entrar em contato
+                </a>
               </div>
-              </div>
+            </div>
           </div>
         </FadeIn>
       </article>

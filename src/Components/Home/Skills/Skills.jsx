@@ -13,6 +13,10 @@ const Skills = () => {
       <FadeIn>
         <article className={`${styles.skills} container`}>
           <Subtitle text="Habilidades" />
+          <div className={`${styles.arrows}`}>
+            <button className={`${styles.arrowBtn}`}></button>
+            <button className={`${styles.arrowBtn}`}></button>
+          </div>
           <div className={`${styles.skillsContainer}`}>
             <SkillsItem />
           </div>

@@ -14,7 +14,7 @@ const SkillsItem = () => {
   const mainSkills = [
     {
       id: 1,
-      title: 'digitais',
+      title: 'colaborativas',
       subtitle: 'tecnologias',
       gradientColor: 'gradientOrange',
       img: Cartoon1,
@@ -71,7 +71,7 @@ const SkillsItem = () => {
                 text={skill.paragraph}
                 className={`${styles.skillsParagraph}`}
               />
-              <ul className={`${styles.techList}`}>
+              <ul className={`${styles.skillListItem}`}>
                 {skill.tech.map((tech, index) => (
                   <li key={index}>
                     <span>{tech.name}</span>

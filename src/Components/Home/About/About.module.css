@@ -28,13 +28,13 @@
 .aboutContenteBtn span{
   max-width: 20ch;
 }
-.aboutButton{
+.buttonAbout{
   font: 500 1rem/1.2rem 'Inter', sans-serif;
   text-wrap: nowrap;
   text-transform: uppercase;
   border-bottom: 2px solid var(--color-white);
 }
-.aboutButton:hover{
+.buttonAbout:hover{
   background: linear-gradient(
       to right,
       #35B3FF,

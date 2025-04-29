@@ -10,10 +10,8 @@ const Projects = () => {
         <AnimateTilte words={fraseProjects} />
         <article className={`${styles.projects} container`}>
           <FadeIn>
-            <div>
-              <div className={`${styles.projectsContainer}`}>
+            <div className={`${styles.projectsContainer}`}>
                 <ProjectsCards />
-              </div>
             </div>
           </FadeIn>
         </article>

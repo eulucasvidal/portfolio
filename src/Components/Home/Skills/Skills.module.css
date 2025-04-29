@@ -8,9 +8,53 @@
   justify-content: center;
   gap: 20px;
 }
+.skills h2{
+  position: relative;
+}
+.arrows{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  position: absolute;
+  z-index: 2;
+  
+}
+.arrowBtn{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: #2C2C2C;
+  transition: .4s;
+}
+.arrowBtn:hover{
+  background: linear-gradient(
+    to right,
+    #35B3FF,
+    #812FFF,
+    #E737FF);
+}
+@media(max-width:1000px){
+  .arrows{
+    top: 10%;
+    justify-content: space-between;
+  }
+}
+@media(max-width:650px){
+  .arrows{
+    top: 7%;
+    padding: 10px;
+    width: 100%;
+  }
+}
 @media(max-width:1000px){
   .skills{
     justify-items: center;
-    gap: 60px;
+    gap: 30px;
   }
 }

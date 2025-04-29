@@ -4,7 +4,6 @@ import Subtitle from '../../../Components/Common/Subtitle/Subtitle';
 import Paragraph from '../../../Components/Common/Paragraph/Paragraph';
 import Button from '../../../Utilities/Buttons/Button/Button';
 
-
 /* Imports abaixo são das logos dos projetos */
 import Logo1 from '../../../Assets/Img/Svg/logo-projects/bikestar.svg';
 import Logo2 from '../../../Assets/Img/Svg/logo-projects/saintrock.svg';
@@ -17,7 +16,6 @@ import Img3 from '../../../Assets/Img/Projects/oceanbank.png';
 import Img4 from '../../../Assets/Img/Projects/embreve.png';
 import { color } from 'framer-motion';
 
-
 const ProjectsCards = () => {
   const CardProjects = [
     {
@@ -26,10 +24,18 @@ const ProjectsCards = () => {
       name: 'bikestar',
       typeProject: 'portal ecommerce',
       gradientColor: 'gradientOrange',
-      description: 'Bike Stars é um e-commerce de bicicletas desenvolvido com foco em uma experiência moderna e intuitiva para o usuário. Inspirado no projeto Bikecraft da Origamid, reestruturei todo o layout aplicando meus conhecimentos em UX e UI Design para criar uma interface mais atual e funcional. Mantive a essência do projeto original, aproveitando a paleta de cores como ponto de partida, mas redesenhei cada detalhe para garantir uma navegação fluida e um visual mais alinhado com as tendências atuais.',
-      techs: ['HTML5','CSS3','JavaScript', 'Figma','UX/UI Design', 'Responsividade'],
-      deploy:'https://mybikestar.netlify.app/',
-      github:'https://github.com/eulucasvidal/bikestar',
+      description:
+        'Bike Stars é um e-commerce de bicicletas desenvolvido com foco em uma experiência moderna e intuitiva para o usuário. Inspirado no projeto Bikecraft da Origamid, reestruturei todo o layout aplicando meus conhecimentos em UX e UI Design para criar uma interface mais atual e funcional. Mantive a essência do projeto original, aproveitando a paleta de cores como ponto de partida, mas redesenhei cada detalhe para garantir uma navegação fluida e um visual mais alinhado com as tendências atuais.',
+      techs: [
+        'HTML5',
+        'CSS3',
+        'JavaScript',
+        'Figma',
+        'UX/UI Design',
+        'Responsividade',
+      ],
+      deploy: 'https://mybikestar.netlify.app/',
+      github: 'https://github.com/eulucasvidal/bikestar',
     },
     {
       logo: Logo2,
@@ -37,10 +43,19 @@ const ProjectsCards = () => {
       name: 'saintrock',
       typeProject: 'blog portal',
       gradientColor: 'gradientGreen',
-      description: 'Saintrock é um projeto de blog voltado para o universo streetwear, inspirado em plataformas como Sneakers News, ArtWalk e StockX. Desenvolvi esse projeto com o objetivo de praticar e aprofundar meus conhecimentos em Flexbox, Grid Layout e criação de interfaces do zero. Todo o design foi pensado para refletir a estética urbana e contemporânea do streetwear, buscando harmonia entre visual e funcionalidade, sempre com foco em uma experiência moderna e atrativa para o usuário.',
-      techs: ['HTML5','CSS3','JavaScript', 'Figma','Display Flex', 'Display Grid', 'Responsividade'],
-      deploy:'https://saintrock.netlify.app/',
-      github:'https://github.com/eulucasvidal/saintrock',
+      description:
+        'Saintrock é um projeto de blog voltado para o universo streetwear, inspirado em plataformas como Sneakers News, ArtWalk e StockX. Desenvolvi esse projeto com o objetivo de praticar e aprofundar meus conhecimentos em Flexbox, Grid Layout e criação de interfaces do zero. Todo o design foi pensado para refletir a estética urbana e contemporânea do streetwear, buscando harmonia entre visual e funcionalidade, sempre com foco em uma experiência moderna e atrativa para o usuário.',
+      techs: [
+        'HTML5',
+        'CSS3',
+        'JavaScript',
+        'Figma',
+        'Display Flex',
+        'Display Grid',
+        'Responsividade',
+      ],
+      deploy: 'https://saintrock.netlify.app/',
+      github: 'https://github.com/eulucasvidal/saintrock',
     },
     {
       logo: Logo3,
@@ -48,10 +63,11 @@ const ProjectsCards = () => {
       name: 'ocean bank',
       typeProject: 'landing page',
       gradientColor: 'gradientBlue',
-      description: 'OceanBank é uma landing page simples desenvolvida com HTML, CSS e JavaScript, com foco principal na organização estrutural do projeto. Mais do que o design ou funcionalidades complexas, esse projeto teve como objetivo aprimorar a estrutura de pastas, a semântica do HTML, o cuidado com clean code (CDO) e boas práticas que impactam diretamente na performance e manutenção de páginas web.',
-      techs: ['HTML5','CSS3','JavaScript', 'Figma'],
-      deploy:'https://ocean-bank.netlify.app/',
-      github:'https://github.com/eulucasvidal/ocean-bank',
+      description:
+        'OceanBank é uma landing page simples desenvolvida com HTML, CSS e JavaScript, com foco principal na organização estrutural do projeto. Mais do que o design ou funcionalidades complexas, esse projeto teve como objetivo aprimorar a estrutura de pastas, a semântica do HTML, o cuidado com clean code (CDO) e boas práticas que impactam diretamente na performance e manutenção de páginas web.',
+      techs: ['HTML5', 'CSS3', 'JavaScript', 'Figma'],
+      deploy: 'https://ocean-bank.netlify.app/',
+      github: 'https://github.com/eulucasvidal/ocean-bank',
     },
     {
       logo: Logo4,
@@ -61,33 +77,41 @@ const ProjectsCards = () => {
       gradientColor: 'gradientPurple',
       description: 'Projeto em breve para uma nova experiencia',
       techs: ['Sem Tech', 'Sem Tech', 'Sem Tech', 'Sem Tech'],
-      deploy:'#',
-      github:'#',
+      deploy: '#',
+      github: '#',
     },
   ];
 
   return (
     <div>
       {CardProjects.map((card, index) => (
-        <div key={index} className={`${styles.cardContainer}`}>
-          <div className={`${styles.cardInfo}`}>
+        <div key={index} className={`${styles.project}`}>
+          <div className={`${styles.projectInfo}`}>
             <img src={card.logo} alt="logotipo do projeto" />
             <div>
-            <Subtitle text={card.name}/>
-            <span className={`${styles.cardSpan} ${styles[card.gradientColor]}`}>{card.typeProject}</span>
+              <Subtitle text={card.name} />
+              <span
+                className={`${styles.projectInfoSpan} ${
+                  styles[card.gradientColor]
+                }`}
+              >
+                {card.typeProject}
+              </span>
             </div>
             <Paragraph text={card.description} />
-            <ul className={`${styles.techsList}`}>
-            {card.techs.map((tech, index) => (
-              <li key={index}><span className={`${styles.spanTech}`}>{tech}</span></li>
-            ))}
+            <ul className={`${styles.projectskillListItem}`}>
+              {card.techs.map((tech, index) => (
+                <li key={index}>
+                  <span className={`${styles.projectSpanTech}`}>{tech}</span>
+                </li>
+              ))}
             </ul>
-            <div className={`${styles.cardButtons}`}>
-                <Button url={card.deploy} text="deploy"/>
-                <Button url={card.github} text="github" />
+            <div className={`${styles.projectButtons}`}>
+              <Button url={card.deploy} text="deploy" />
+              <Button url={card.github} text="github" />
             </div>
           </div>
-          <img src={card.img} alt="imagem do projeto"/>
+          <img src={card.img} alt="imagem do projeto" />
         </div>
       ))}
     </div>

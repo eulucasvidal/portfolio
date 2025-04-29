@@ -1,34 +1,33 @@
-.cardContainer{
+.project{
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   padding: 100px 0px;
 }
-.cardInfo{
+.projectInfo{
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
-.cardInfo img{
+.projectInfo img{
   width: max-content;
 }
-
-.cardInfo p{
+.projectInfo p{
   max-width: 50ch;
 }
-.cardButtons{
+.projectButtons{
   display: flex;
   flex-direction: row;
   align-items: end;
   gap: 15px;
 }
-.techsList{
+.projectskillListItem{
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
   max-width: 450px;
 }
-.spanTech{
+.projectSpanTech{
   font: 700 0.625rem/1 "Inter", sans-serif;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -64,7 +63,7 @@
     #BFFD62,
     #3AFF71);
 }
-.cardSpan{
+.projectInfoSpan{
   font: 800 4rem/1 "Inter", sans-serif;
   max-width: 13ch;
   text-transform: uppercase;
@@ -73,21 +72,21 @@
   background-clip: text;
 }
 @media(max-width:1000px){
-  .cardInfo h3{
+  .projectInfo h3{
     font-size: 1.5rem;
     padding-top: 10px;
   }
-  .cardSpan{
+  .projectInfoSpan{
     font: 800 3rem/1 "Inter", sans-serif;
   }
 }
 @media(max-width:750px){
-  .cardContainer{
+  .project{
     grid-template-columns: 1fr;
     align-items: start;
     padding: 50px 0px;
   }
-  .cardContainer > img{
+  .project > img{
     width: 100%;
   }
 }

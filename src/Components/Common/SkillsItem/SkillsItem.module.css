@@ -19,7 +19,7 @@
   grid-template-columns: 1fr 1fr;
   justify-content: center;
 }
-.skillItem img{
+.skillContainer img{
   max-width: 400px;
 }
 .skillInfo{
@@ -56,12 +56,12 @@
   color: transparent;
   background-clip: text;
 }
-.techList{
+.skillListItem{
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.techList span{
+.skillListItem span{
   font: 600 1.125rem/1 "Inter", sans-serif;
   background: linear-gradient(
     to right,
@@ -74,7 +74,7 @@
   text-transform: uppercase;
   padding-top: 20px;
 }
-.techList span::before{
+.skillListItem span::before{
   content: '';
   width: 100%;
   height: 1px;
@@ -87,7 +87,7 @@
   left: 0;
   position: absolute;
 }
-.techList li{
+.skillListItem li{
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -97,7 +97,7 @@
     grid-template-columns: 1fr;
     justify-items: center;
   }
-  .skillItem img{
+  .skillContainer img{
     max-width: 250px;
   }
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './ProjectsCards.module.css';
 import Subtitle from '../../../Components/Common/Subtitle/Subtitle';
 import Paragraph from '../../../Components/Common/Paragraph/Paragraph';
@@ -15,8 +15,17 @@ import Img2 from '../../../Assets/Img/Projects/saintrock.png';
 import Img3 from '../../../Assets/Img/Projects/oceanbank.png';
 import Img4 from '../../../Assets/Img/Projects/embreve.png';
 import { color } from 'framer-motion';
+import gsap from 'gsap';
 
 const ProjectsCards = () => {
+  gsap.from('.project', {
+    opacity: 0,
+    y: 100,
+    stagger: 0.2,
+    duration: 1,
+    ease: 'power2.out',
+});
+
   const CardProjects = [
     {
       logo: Logo1,
@@ -83,7 +92,7 @@ const ProjectsCards = () => {
   ];
 
   return (
-    <div>
+    <div className={`${styles.projectContainer}`}>
       {CardProjects.map((card, index) => (
         <div key={index} className={`${styles.project}`}>
           <div className={`${styles.projectInfo}`}>

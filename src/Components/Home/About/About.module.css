@@ -59,5 +59,7 @@
   }
   .aboutContenteBtn{
     flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
   }
 }

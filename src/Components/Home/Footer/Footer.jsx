@@ -6,7 +6,7 @@ import ImageLocal from '../../../Assets/Img/Svg/Icons/local.svg';
 const Footer = () => {
   return (
     <footer className={`${styles.footerBg}`}>
-      <section className={`${styles.footer} container`}>
+      <section className={`${styles.footer} container`} id='contato'>
         <Subtitle text="vamos trabalhar juntos?" />
         <div className={`${styles.footerContainer}`}>
           <div className={`${styles.footerMenu} links`}>
@@ -15,16 +15,16 @@ const Footer = () => {
                 <a href="#">home</a>
               </li>
               <li>
-                <a href="#">sobre</a>
+                <a href="#sobre">sobre</a>
               </li>
               <li>
-                <a href="#">projetos</a>
+                <a href="#projetos">projetos</a>
               </li>
               <li>
-                <a href="#">habilidades</a>
+                <a href="#habilidades">habilidades</a>
               </li>
               <li>
-                <a href="#">contato</a>
+                <a href="#contato">contato</a>
               </li>
             </ul>
           </div>

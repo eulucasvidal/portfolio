@@ -8,11 +8,9 @@ const Projects = () => {
   return (
     <section className={`${styles.projectsBg}`}>
         <AnimateTilte words={fraseProjects} />
-        <article className={`${styles.projects} container`}>
+        <article className={`${styles.projects} container`} id='projetos'>
           <FadeIn>
-            <div className={`${styles.projectsContainer}`}>
-                <ProjectsCards />
-            </div>
+          <ProjectsCards />
           </FadeIn>
         </article>
     </section>

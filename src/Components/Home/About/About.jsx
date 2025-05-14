@@ -7,7 +7,7 @@ import { style } from 'framer-motion/client';
 
 const About = () => {
   return (
-    <section className={`${styles.aboutBg}`}>
+    <section className={`${styles.aboutBg}`} id='sobre'>
       <article className={`container`}>
         <FadeIn>
           <div className={`${styles.about}`}>

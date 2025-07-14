@@ -2,7 +2,7 @@
 [REACT__BADGE]: https://img.shields.io/badge/React-005CFE?style=for-the-badge&logo=react
 [FIGMA__BADGE]:https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white
 [PROJECT__BADGE]: https://img.shields.io/badge/📱Visit_this_project-000?style=for-the-badge&logo=project
-[PROJECT__URL]: https://github.com/eulucasvidal/portfolio/blob/main/README.md
+[PROJECT__URL]: https://devlucasgoncalves.netlify.app/
 
 <h1 align="center" style="font-weight: bold;">Projeto Portfolio 💻</h1>
 

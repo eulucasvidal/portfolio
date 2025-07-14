@@ -25,27 +25,27 @@
 
 <h2 id="started">📌 Sobre</h2>
 
-Simple description of what your project do or how to use it.
+Desenvolvido em React, este portfólio demonstra minhas habilidades como desenvolvedor front-end. O projeto reflete meu aprendizado e aplicação prática, e estou animado para compartilhar essa jornada com futuros empregadores.
 
 [![project][PROJECT__BADGE]][PROJECT__URL]
 
 <h2 id="started">🚀 Como iniciar projeto</h2>
 
-Here you describe how to run your project locally
+Passos para rodar o projeto localmente
 
 <h3>Pre requisitos</h3>
 
-Here you list all prerequisites necessary for running your project. For example:
+Certifique-se de ter instalado:
 
 - [NodeJS](https://github.com/)
 - [Git 2](https://github.com)
 
 <h3>Clonar</h3>
 
-How to clone your project
+Como clonar o repositório
 
 ```bash
-git clone your-project-url-in-github
+git clone https://github.com/eulucasvidal/portfolio.git
 ```
 
 <h3>Iniciar</h3>
@@ -53,64 +53,16 @@ git clone your-project-url-in-github
 How to start your project
 
 ```bash
-cd project-name
-npm some-command-to-run
+cd portfolio
+npm start
 ```
 
-<h2 id="routes">📍 Rotas de aplicativos</h2>
+<h2 id="colab">🤝 Autor</h2>
 
-Here you can list the main routes of your API, and what are their expected request bodies.
-​
-| route               | description                                          
-|----------------------|-----------------------------------------------------
-| <kbd>/authenticate</kbd>     | page that list all user info
-| <kbd>/login</kbd>     | page to login
-| <kbd>/dashboard</kbd>     | page that contains all user shopping and spences info
+Um projeto incrivel que fico feliz em compartilhar.
 
-<h2 id="colab">🤝 Colaboradores</h2>
+<img width="100" alt="Lucas Gonçalves" src="https://github.com/user-attachments/assets/68dc1bec-d699-45e2-b8cc-9a9e032cb6a0" />
 
-Special thank you for all people that contributed for this project.
+**Lucas Gonçalves**
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/61896274?v=4" width="100px;" alt="Fernanda Kipper Profile Picture"/><br>
-        <sub>
-          <b>Fernanda Kipper</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://t.ctcdn.com.br/n7eZ74KAcU3iYwnQ89-ul9txVxc=/400x400/smart/filters:format(webp)/i490769.jpeg" width="100px;" alt="Elon Musk Picture"/><br>
-        <sub>
-          <b>Elon Musk</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
-        <sub>
-          <b>Steve Jobs</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
 
-<h2 id="contribute">📫 Contribuir</h2>
-
-Here you will explain how other developers can contribute to your project. For example, explaining how can create their branches, which patterns to follow and how to open an pull request
-
-1. `git clone https://github.com/Fernanda-Kipper/text-editor.git`
-2. `git checkout -b feature/NAME`
-3. Follow commit patterns
-4. Open a Pull Request explaining the problem solved or feature made, if exists, append screenshot of visual modifications and wait for the review!
-
-<h3>Documentations that might help</h3>
-
-[📝 How to create a Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
-
-[💾 Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)

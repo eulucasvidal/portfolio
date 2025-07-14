@@ -20,7 +20,7 @@
 
 
 <p align="center">
-    <img src="../.github/example.png" alt="Image Example" width="400px">
+    <img width="800" height="512" alt="Image" src="https://github.com/user-attachments/assets/4fbda810-e74b-470d-888d-e8d5ed796c17" />
 </p>
 
 <h2 id="started">📌 Sobre</h2>

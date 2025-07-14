@@ -1,27 +1,21 @@
 [JAVASCRIPT__BADGE]: https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript
-[TYPESCRIPT__BADGE]: https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript
 [REACT__BADGE]: https://img.shields.io/badge/React-005CFE?style=for-the-badge&logo=react
-[VUE__BADGE]: https://img.shields.io/badge/VueJS-fff?style=for-the-badge&logo=vue
-[GATSBY__BADGE]: https://img.shields.io/badge/Gatsby-7026b9?style=for-the-badge&logo=gatsby
-[ANGULAR__BADGE]: https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular
+[FIGMA__BADGE]:https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white
 [PROJECT__BADGE]: https://img.shields.io/badge/📱Visit_this_project-000?style=for-the-badge&logo=project
-[PROJECT__URL]: https://github.com/Fernanda-Kipper/Readme-Templates
+[PROJECT__URL]: [https://github.com/eulucasvidal/portfolio/blob/main/README.md]
 
-<h1 align="center" style="font-weight: bold;">Project name 💻</h1>
+<h1 align="center" style="font-weight: bold;">Projeto Portfolio 💻</h1>
 
 ![react][REACT__BADGE]
-![gatsby][GATSBY__BADGE]
-![angular][ANGULAR__BADGE]
-![vue][VUE__BADGE]
-![typescript][TYPESCRIPT__BADGE]
+![figma][FIGMA__BADGE]
 ![javascript][JAVASCRIPT__BADGE]
 
 <p align="center">
- <a href="#about">About</a> • 
- <a href="#started">Getting Started</a> • 
-  <a href="#started">App Routes</a> • 
-  <a href="#colab">Collaborators</a> •
- <a href="#contribute">Contribute</a>
+ <a href="#about">Sobre</a> • 
+ <a href="#started">Como iniciar projeto</a> • 
+  <a href="#started">Rotas de aplicativos</a> • 
+  <a href="#colab">Colaboradores</a> •
+ <a href="#contribute">Contribuir</a>
 </p>
 
 
@@ -29,24 +23,24 @@
     <img src="../.github/example.png" alt="Image Example" width="400px">
 </p>
 
-<h2 id="started">📌 About</h2>
+<h2 id="started">📌 Sobre</h2>
 
 Simple description of what your project do or how to use it.
 
 [![project][PROJECT__BADGE]][PROJECT__URL]
 
-<h2 id="started">🚀 Getting started</h2>
+<h2 id="started">🚀 Como iniciar projeto</h2>
 
 Here you describe how to run your project locally
 
-<h3>Prerequisites</h3>
+<h3>Pre requisitos</h3>
 
 Here you list all prerequisites necessary for running your project. For example:
 
 - [NodeJS](https://github.com/)
 - [Git 2](https://github.com)
 
-<h3>Cloning</h3>
+<h3>Clonar</h3>
 
 How to clone your project
 
@@ -54,7 +48,7 @@ How to clone your project
 git clone your-project-url-in-github
 ```
 
-<h3>Starting</h3>
+<h3>Iniciar</h3>
 
 How to start your project
 
@@ -63,7 +57,7 @@ cd project-name
 npm some-command-to-run
 ```
 
-<h2 id="routes">📍 Application Routes</h2>
+<h2 id="routes">📍 Rotas de aplicativos</h2>
 
 Here you can list the main routes of your API, and what are their expected request bodies.
 ​
@@ -73,7 +67,7 @@ Here you can list the main routes of your API, and what are their expected reque
 | <kbd>/login</kbd>     | page to login
 | <kbd>/dashboard</kbd>     | page that contains all user shopping and spences info
 
-<h2 id="colab">🤝 Collaborators</h2>
+<h2 id="colab">🤝 Colaboradores</h2>
 
 Special thank you for all people that contributed for this project.
 
@@ -106,7 +100,7 @@ Special thank you for all people that contributed for this project.
   </tr>
 </table>
 
-<h2 id="contribute">📫 Contribute</h2>
+<h2 id="contribute">📫 Contribuir</h2>
 
 Here you will explain how other developers can contribute to your project. For example, explaining how can create their branches, which patterns to follow and how to open an pull request
 

@@ -1,3 +1,4 @@
+[Portfolio__BADGE]:https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139
 [JAVASCRIPT__BADGE]: https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript
 [REACT__BADGE]: https://img.shields.io/badge/React-005CFE?style=for-the-badge&logo=react
 [FIGMA__BADGE]:https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white
@@ -6,6 +7,7 @@
 
 <h1 align="center" style="font-weight: bold;">Projeto Portfolio 💻</h1>
 
+![portfolio][Portfolio__BADGE]
 ![react][REACT__BADGE]
 ![figma][FIGMA__BADGE]
 ![javascript][JAVASCRIPT__BADGE]
@@ -50,7 +52,7 @@ git clone https://github.com/eulucasvidal/portfolio.git
 
 <h3>Iniciar</h3>
 
-How to start your project
+Como iniciar o projeto:
 
 ```bash
 cd portfolio
